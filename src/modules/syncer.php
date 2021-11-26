@@ -1,7 +1,8 @@
 <?php
 
-require_once('../../../wp-load.php');
-require_once('../../../wp-admin/includes/upgrade.php');
+namespace WpMiogestSync\Modules;
+
+use WpMiogestSync\Utils\Logger;
 
 class Syncer
 {
@@ -60,7 +61,7 @@ class Syncer
           );
           $attachment_id = wp_insert_attachment($attachment, $upload_file['file'], $post_id);
           if (!is_wp_error($attachment_id)) {
-            require_once("../../../wp-admin" . '/includes/image.php');
+            
             $attachment_data = wp_generate_attachment_metadata($attachment_id, $upload_file['file']);
             wp_update_attachment_metadata($attachment_id,  $attachment_data);
             set_post_thumbnail($post_id, $attachment_id);
@@ -393,10 +394,3 @@ class Syncer
     }
   }
 }
-
-$syncer = new Syncer();
-$syncer->checkRemoteAddress();
-$syncer->fetchRemoteData();
-$syncer->getAnnunciIds();
-$syncer->deleteOldAnnunci();
-$syncer->insertNewAnnunci();
