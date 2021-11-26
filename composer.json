@@ -1,5 +1,6 @@
 {
     "name": "euber/wp-miogest-sync",
+    "version": "3.0.0",
     "description": "The wordpress plugin internal to s4web for the synchronization of miogest data",
     "type": "project",
     "autoload": {
@@ -17,5 +18,8 @@
         "webmozart/path-util": "^2.3",
         "monolog/monolog": "^2.3",
         "wherw/scan-path": "^1.0"
+    },
+    "require-dev": {
+        "rector/rector": "^0.12.5"
     }
 }
