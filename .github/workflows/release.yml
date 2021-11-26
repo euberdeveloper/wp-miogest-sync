@@ -25,7 +25,7 @@ jobs:
 
       - name: Compress plugin source
         uses: master-atul/tar-action@v1.0.2
-        id: compress
+        id: compress_plugin
         with:
           command: c
           files: |
@@ -41,7 +41,7 @@ jobs:
 
       - name: Compress modified themes and plugins of Resideo
         uses: master-atul/tar-action@v1.0.2
-        id: compress
+        id: compress_resideo
         with:
           command: c
           files: |
