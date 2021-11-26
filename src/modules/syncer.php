@@ -248,6 +248,23 @@ class Syncer
         Logger::$logger->debug('Upload dir path is ', ['upload_dir_path' => $this->upload_dir_path]);
     }
 
+    public function createTableIfNotExists(): void
+    {
+        global $wpdb;
+
+        if ($wpdb->get_var("SHOW TABLS LIKE '$this->annunci_table'") != $this->annunci_table) {
+
+            $sql = "CREATE TABLE $this->annunci_table ( 
+              `post_id` int(11) NOT NULL, 
+              `type` int(2) NOT NULL,
+              `annuncio_id` int(11) NOT NULL,
+              `lang` CHAR(2) NOT NULL,
+              PRIMARY KEY `order_id` (`post_id`, `type`) 
+            ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;";
+            dbDelta($sql);
+        }
+    }
+
     public function checkRemoteAddress(): void
     {
         $remote_addr = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '127.0.0.1';

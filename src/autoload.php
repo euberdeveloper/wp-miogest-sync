@@ -6,6 +6,7 @@ declare(strict_types=1);
 
 require_once('../../../wp-load.php');
 require_once('../../../wp-admin/includes/upgrade.php');
+require_once('../../../wp-admin/upgrade-functions.php');
 require_once('../../../wp-admin/includes/image.php');
 
 // Load vendor libs
