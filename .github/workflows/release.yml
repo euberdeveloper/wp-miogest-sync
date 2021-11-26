@@ -65,5 +65,5 @@ jobs:
           prerelease: false
           title: "Deploy Wp Miogest Sync Plugin"
           files: |
-            wp-miogest-sync-plugin.tar.gz
+            wp-miogest-sync.tar.gz
             wp-miogest-sync-resideo-modified.tar.gz
