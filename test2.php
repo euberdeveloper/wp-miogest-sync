@@ -98,6 +98,40 @@ class Syncer
     return $id;
   }
 
+  private function insertTranslationBinding(array $ids_mapped_by_lang): void
+  {
+    global $wpdb;
+
+    $next_translation_id = 1 + $wpdb->get_var("SELECT MAX(trid) FROM $this->icl_translations_table");
+    foreach ($this->langs as $lang) {
+      $wpdb->insert(
+        $this->icl_translations_table,
+        [
+          'trid' => $next_translation_id,
+          'language_code' => $lang,
+          'source_language_code' => 'it',
+          'element_type' => 'post_property',
+          'element_id' => $ids_mapped_by_lang[$lang]
+        ]
+      );
+
+      if ($wpdb->insert_id == 0) {
+        $wpdb->update(
+          $this->icl_translations_table,
+          [
+            'trid' => $next_translation_id,
+            'language_code' => $lang,
+            'source_language_code' => 'it',
+            'element_type' => 'post_property'
+          ],
+          [
+            'element_id' => $ids_mapped_by_lang[$lang]
+          ]
+        );
+      }
+    }
+  }
+
   private function insertRelationships(array $annuncio, array $record_ids): void
   {
     global $wpdb;
@@ -299,6 +333,9 @@ class Syncer
 
       // Insert relationships
       $this->insertRelationships($annuncio, [$post_id_it, $post_id_en, $post_id_de]);
+
+      // Connect translations 
+      $this->insertTranslationBinding(['it' => $post_id_it, 'en' => $post_id_en, 'de' => $post_id_de]);
     }
   }
 }
