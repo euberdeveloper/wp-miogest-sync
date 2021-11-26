@@ -9,9 +9,8 @@ class Syncer
   private static string $static_annunci_table = 'miogest_synced_annunci';
 
   private string $base_post_url;
-  private array $upload_dir;
+  private string $upload_dir_path;
   private string $now;
-  private array $post_metadata_keys;
   private array $langs;
   private array $floors;
 
@@ -38,6 +37,42 @@ class Syncer
     }
 
     return $fotos_str;
+  }
+
+  private function addThumbnailToAnnuncio(array $post_ids, array $annuncio): void
+  {
+    if (array_key_exists('Foto', $annuncio) && is_array($annuncio['Foto'])) {
+      $image_url = array_shift($annuncio['Foto']);
+
+      foreach ($post_ids as $post_id) {
+        $filename = "_miogest_sync_$post_id.jpg";
+        $filepath = $this->downloadFotoAndCrop($image_url, $filename);
+
+        $upload_file = wp_upload_bits($filename, null, @file_get_contents($filepath));
+        if (!$upload_file['error']) {
+          $wp_filetype = wp_check_filetype($filename, null);
+          $attachment = array(
+            'post_mime_type' => $wp_filetype['type'],
+            'post_parent'    => $post_id,
+            'post_title'     => preg_replace('/\.[^.]+$/', '', $filename),
+            'post_content'   => '',
+            'post_status'    => 'inherit'
+          );
+          $attachment_id = wp_insert_attachment($attachment, $upload_file['file'], $post_id);
+          if (!is_wp_error($attachment_id)) {
+            require_once("../../../wp-admin" . '/includes/image.php');
+            $attachment_data = wp_generate_attachment_metadata($attachment_id, $upload_file['file']);
+            wp_update_attachment_metadata($attachment_id,  $attachment_data);
+            set_post_thumbnail($post_id, $attachment_id);
+
+            $old_gallery_value = get_post_meta($post_id, 'property_gallery', true);
+            $new_gallery_fotos = explode(',', $old_gallery_value);
+            array_unshift($new_gallery_fotos, $attachment_id);
+            update_post_meta($post_id, 'property_gallery', implode(',', $new_gallery_fotos));
+          }
+        }
+      }
+    }
   }
 
   private function getPostMeta(array $annuncio, string $lang): array
@@ -166,14 +201,30 @@ class Syncer
     }
   }
 
+  private function downloadFotoAndCrop(string $img_url, string $file_name): string
+  {
+    $filepath = $this->upload_dir_path . '/' . $file_name;
+    $contents = file_get_contents($img_url);
+    $savefile = fopen($filepath, 'w');
+    fwrite($savefile, $contents);
+    fclose($savefile);
+
+    $img_editor = wp_get_image_editor($filepath);
+    if (!is_wp_error($img_editor)) {
+      $img_editor->resize(400, 400, true);
+      $img_editor->save($filepath);
+    }
+
+    return $filepath;
+  }
+
   public function __construct()
   {
     global $table_prefix;
 
     $this->base_post_url = get_site_url() . '/prova/?post_type=property&p=';
     $this->now = current_time('mysql', false);
-    $this->upload_dir = wp_upload_dir();
-    $this->post_metadata_keys = ["_edit_lock", "_edit_last", "property_address", "property_lat", "property_lng", "street_number", "route", "neighborhood", "locality", "administrative_area_level_1", "postal_code", "property_price", "property_price_label", "property_taxes", "property_hoa_dues", "property_beds", "property_baths", "property_size", "internet", "garage", "elevator", "air_conditioning", "pool", "dishwasher", "fireplace", "balcony", "built_in", "lot_width", "lot_depth", "stories", "room_count", "parking_spaces", "property_video", "property_virtual_tour", "property_agent", "property_gallery", "property_floor_plans", "property_calc", "property_featured", "spese_condominiali", "classe_energetica", "stato_immobile", "mq_sotto", "piano", "codice"];
+    $this->upload_dir_path = wp_upload_dir()['path'];
     $this->langs = ["it", "en", 'de'];
     $this->floors = [
       'it' => ['Piano terra', 'Primo piano', 'Secondo piano', 'Terzo piano', 'Quarto piano', 'Quinto piano'],
@@ -336,6 +387,9 @@ class Syncer
 
       // Connect translations 
       $this->insertTranslationBinding(['it' => $post_id_it, 'en' => $post_id_en, 'de' => $post_id_de]);
+
+      // Add thumbnail
+      $this->addThumbnailToAnnuncio([$post_id_it, $post_id_en, $post_id_de], $annuncio);
     }
   }
 }
@@ -346,300 +400,3 @@ $syncer->fetchRemoteData();
 $syncer->getAnnunciIds();
 $syncer->deleteOldAnnunci();
 $syncer->insertNewAnnunci();
-
-
-// Load dependencies
-
-
-// Check if the remote address is allowed
-// $ARR2 = array_fill(0, 44, '');
-
-
-
-//   $maxtrid = 1 + $wpdb->get_var("SELECT MAX(trid) FROM 85OCfh1_icl_translations");
-//   //Connect translations IT
-
-//   $wpdb->insert(
-//     '85OCfh1_icl_translations',
-//     array(
-//       'element_type' => "post_property",
-//       'element_id'      => $record_id,
-//       'trid'      => $maxtrid,
-//       'language_code'      => 'it',
-//       'source_language_code'      => 'it'
-//     )
-//   );
-
-//   $record_id_trad_it = $wpdb->insert_id;
-
-//   //Connect translations EN
-
-//   $wpdb->insert(
-//     '85OCfh1_icl_translations',
-//     array(
-//       'element_type' => "post_property",
-//       'element_id'      => $record_id_en,
-//       'trid'      => $maxtrid,
-//       'language_code'      => 'en',
-//       'source_language_code'      => 'it'
-//     )
-//   );
-
-//   $record_id_trad_en = $wpdb->insert_id;
-
-//   //Connect translations DE
-
-//   $wpdb->insert(
-//     '85OCfh1_icl_translations',
-//     array(
-//       'element_type' => "post_property",
-//       'element_id'      => $record_id_de,
-//       'trid'      => $maxtrid,
-//       'language_code'      => 'de',
-//       'source_language_code'      => 'it'
-//     )
-//   );
-
-//   $record_id_trad_de = $wpdb->insert_id;
-
-
-
-//   //RELATIONSHIP Details about the post (publish, post category, ..)
-
-//   //ARRAYS FOR category
-//   $arr_cat_miogest = array(17, 18, 25, 26, 28, 119, 50, 30, 32, 87, 44, 46, 91, 127, 117, 48, 84, 34, 105, 123, 125, 83, 95, 33, 93, 97, 40, 41, 42, 85, 99, 36, 82, 81, 86, 1);
-
-
-
-
-//   for ($s = 0; $s < count($ARR_lang); $s++) {
-//     if ($s == 0)
-//       $r = $record_id;
-//     else if ($s == 1)
-//       $r = $record_id_en;
-//     else if ($s == 2)
-//       $r = $record_id_de;
-
-
-//     if (array_key_exists('Categoria', $array['Annuncio'][$i])) {
-//       if (is_array($array['Annuncio'][$i]['Categoria'])) {
-//         for ($y = 0; $y < count($array['Annuncio'][$i]['Categoria']); $y++) {
-//           $key = 21 + intval(array_search($array['Annuncio'][$i]['Categoria'][$y], $arr_cat_miogest));
-//           $wpdb->insert(
-//             '85OCfh1_term_relationships',
-//             array(
-//               'object_id' => $r,
-//               'term_taxonomy_id' => $key,
-//               'term_order' =>  0
-//             )
-//           );
-//           echo "<br>" . $array['Annuncio'][$i]['Codice'] . " -> " . $array['Annuncio'][$i]['Categoria'][$y] .  " | " . $key . " | " . array_search($array['Annuncio'][$i]['Categoria'][$y], $arr_cat_miogest);
-//         }
-//       } else {
-//         $key = 21 + intval(array_search($array['Annuncio'][$i]['Categoria'], $arr_cat_miogest));
-//         $wpdb->insert(
-//           '85OCfh1_term_relationships',
-//           array(
-//             'object_id' => $r,
-//             'term_taxonomy_id' => $key,
-//             'term_order' =>  0
-//           )
-//         );
-//         echo "<br>" . $array['Annuncio'][$i]['Codice'] . " -> " . $array['Annuncio'][$i]['Categoria'] .  " | " . $key . " | " . array_search($array['Annuncio'][$i]['Categoria'], $arr_cat_miogest);
-//       }
-//     }
-
-//     $wpdb->insert(
-//       '85OCfh1_term_relationships',
-//       array(
-//         'object_id' => $r,
-//         'term_taxonomy_id' => 11,
-//         'term_order' =>  0
-//       )
-//     );
-//   }
-
-//   for ($s = 0; $s < count($ARR_lang); $s++) {
-//     if ($s == 0)
-//       $r = $record_id;
-//     else if ($s == 1)
-//       $r = $record_id_en;
-//     else if ($s == 2)
-//       $r = $record_id_de;
-
-//     //POSTMETA Price and other details about property
-//     $ARR2[8] = str_replace(' ', '', strtolower($array['Annuncio'][$i]['Comune']));
-//     $ARR2[35] = $img_str;
-//     if (!is_array($array['Annuncio'][$i]['Prezzo']))
-//       $ARR2[11] = $array['Annuncio'][$i]['Prezzo'];
-//     if (!is_array($array['Annuncio'][$i]['Anno']))
-//       $ARR2[26] = $array['Annuncio'][$i]['Anno'];
-//     /*if(!is_array($array['Annuncio'][$i]['PostiAuto']))
-//        $ARR2[31] = $array['Annuncio'][$i]['PostiAuto'];*/
-//     if (!is_array($array['Annuncio'][$i]['Classe']))
-//       $ARR2[40] = $array['Annuncio'][$i]['Classe'];
-
-//     $stringStat = "";
-//     if (!is_array($array['Annuncio'][$i]['Scheda_StatoImmobile'])) {
-
-//       if ($s != 0) {
-
-//         for ($t = 0; $t < count($statoAbit); $t++) {
-
-//           if ($statoAbit[$t] == $array['Annuncio'][$i]['Scheda_StatoImmobile']) {
-//             if ($s == 1)
-//               $stringStat = $statoAbitEN[$t];
-//             else
-//               $stringStat = $statoAbitDE[$t];
-
-//             //echo '<br> Stato ab: ' . $stringStat . '  ' . $array['Annuncio'][$i]['Scheda_StatoImmobile']. '<br>';
-//             //print_r($arrayStato['scheda'][$o]['valori'][$t]);
-//           }
-//         }
-//         $ARR2[41] = $stringStat;
-//       } else {
-//         $ARR2[41] = $array['Annuncio'][$i]['Scheda_StatoImmobile'];
-//       }
-//     }
-
-//     /*if(!is_array($array['Annuncio'][$i]['Piano']))
-//        $ARR2[43] = $array['Annuncio'][$i]['Piano'];*/
-//     if (!is_array($array['Annuncio'][$i]['Piano'])) {
-//       $stringPiano = "";
-//       $piano = intval($array['Annuncio'][$i]['Piano']);
-//       if ($s == 0)
-//         $stringPiano = $PIANI_IT[$piano];
-//       else if ($s == 1)
-//         $stringPiano = $PIANI_EN[$piano];
-//       else if ($s == 2)
-//         $stringPiano = $PIANI_DE[$piano];
-//       $ARR2[43] = $stringPiano;
-//       //print_r($stringPiano);
-//       //echo "<br>Piano " . $stringPiano . " | " . $piano . " | " . $s . "<br>";
-//       //print_r($PIANO_IT);
-
-//     } else {
-//       $ARR2[43] = intval($array['Annuncio'][$i]['Piano']);
-//     }
-
-//     if (!is_array($array['Annuncio'][$i]['Codice']))
-//       $ARR2[44] = $array['Annuncio'][$i]['Codice'];
-//     if (!is_array($array['Annuncio'][$i]['Mq'])) {
-//       $ARR2[17] = $array['Annuncio'][$i]['Mq'];
-//       $ARR2[42] = $array['Annuncio'][$i]['Mq'];
-//     }
-
-//     //AGENT
-//     $ARR2[34] = '290';
-//     //FEATURED
-//     if ($i < 4)
-//       $ARR2[38] = '1';
-
-
-//     /*
-//      $stringTip="";
-//      if(!is_array($array['Annuncio'][$i]['Categoria'])){		
-//        for($y=0; $y<count($arrayCat['cat']); $y++){
-//          if( $arrayCat['cat'][$y]['id'] == $array['Annuncio'][$i]['Categoria'] ){
-//            if($s==0)
-//              $stringTip=$arrayCat['cat'][$i]['nome'];
-//            else if($s==1)
-//              $stringTip=$arrayCat['cat'][$i]['nome_en'];
-//            else if($s==2)
-//              $stringTip=$arrayCat['cat'][$i]['nome_de'];
-//          }
-//        }	
-//      } else {
-//        echo "<br>Conteggio: " . count($array['Annuncio'][$i]['Categoria']) . "<br>";
-//        for($u=0; $u<count($array['Annuncio'][$i]['Categoria']); $u++){
-//          print_r( $array['Annuncio'][$i]['Categoria'][$u] ); echo " ";
-//          for($y=0; $y<count($arrayCat['cat']); $y++){
-//            if( $arrayCat['cat'][$y]['id'] == $array['Annuncio'][$i]['Categoria'][$u] ){
-//              if($u==0){
-//                if($s==0)
-//                  $stringTip=$arrayCat['cat'][$y]['nome'];
-//                else if($s==1)
-//                  $stringTip=$arrayCat['cat'][$y]['nome_en'];
-//                else if($s==2)
-//                  $stringTip=$arrayCat['cat'][$y]['nome_de'];
-//              } else {
-//                if($s==0)
-//                  $stringTip=$stringTip . " | " . $arrayCat['cat'][$y]['nome'];
-//                else if($s==1)
-//                  $stringTip=$stringTip . " | " . $arrayCat['cat'][$y]['nome_en'];
-//                else if($s==2)
-//                  $stringTip=$stringTip . " | " . $arrayCat['cat'][$y]['nome_de'];
-//              }
-//            }
-//          }
-//        }
-//      }
-//      //echo "Tipo: " . $stringTip . "<br>";
-//      $ARR2[42] = $stringTip;*/
-
-
-
-//     for ($x = 0; $x < count($ARR2); $x++) {
-
-//       if ($x == 35)
-//         print_r($ARR2[$x]);
-
-//       $wpdb->insert(
-//         '85OCfh1_postmeta',
-//         array(
-//           'post_id' => $r,
-//           'meta_key' => $ARR1[$x],
-//           'meta_value' => $ARR2[$x]
-//         )
-//       );
-//     }
-//   }
-
-
-
-//   /*
-
-//    85OCfh1_posts
-
-//      (285, 1, '2021-04-21 17:03:00', '2021-04-21 15:03:00', 'Prova', 'Test', '', 'publish', 'open', 'closed', '', 'test', '', '', '2021-04-21 17:03:09', '2021-04-21 15:03:09', '', 0, 'https://gardahomeproject.it/prova/?post_type=property&#038;p=285', 0, 'property', '', 0); */
-//   echo "<br>__________________________<br>";
-// }
-
-
-
-// /* property NOT NECESSARY
-
-
-// //Populate the translation_status table EN
-
-// $wpdb->insert( 
-//  '85OCfh1_icl_translation_status', 
-//  array( 
-//    'translation_id'    => $record_id_trad_en,
-//    'status'     => 9,
-//    'translator_id'    => 0,
-//    'needs_update' => 0,
-//    'batch_id'      => 0,
-//    'links_fixed'      => 0,
-//    'tp_revision'      => 1,
-//    'timestamp'      => $now
-//  )
-// );
-
-// //Populate the translation_status table DE
-
-// $wpdb->insert( 
-//  '85OCfh1_icl_translation_status', 
-//  array( 
-//    'translation_id'    => $record_id_trad_de,
-//    'status'     => 9,
-//    'translator_id'    => 0,
-//    'needs_update' => 0,
-//    'batch_id'      => 0,
-//    'links_fixed'      => 0,
-//    'tp_revision'      => 1,
-//    'timestamp'      => $now
-//  )
-// );
-
-// */
