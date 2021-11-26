@@ -15,6 +15,8 @@ Logger::$logger->info('Get all the ids from the annunci table');
 $syncer->getAnnunciIds();
 Logger::$logger->info('Delete old annunci\'s data');
 $syncer->deleteOldAnnunci();
+Logger::$logger->info('Delete old annunci\'s thumbnails');
+$syncer->deleteOldAnnunciThumbs();
 Logger::$logger->info('Insert new annunci');
 $syncer->insertNewAnnunci();
 Logger::$logger->info('Sync complete');

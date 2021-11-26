@@ -12,8 +12,14 @@ require_once('../../../wp-admin/includes/image.php');
 
 require_once('vendor/autoload.php');
 
+// Polyfills
+
+require_once('src/polyfills/polyfills.php');
+
+
 // Load utils and moudles
 
 require_once('src/utils/Logger.php');
+require_once('src/utils/EraseThumbnails.php');
 require_once('src/modules/syncer.php');
 

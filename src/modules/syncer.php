@@ -3,6 +3,9 @@
 namespace WpMiogestSync\Modules;
 
 use WpMiogestSync\Utils\Logger;
+use WpMiogestSync\Utils\EraseThumbnails;
+
+use Webmozart\PathUtil\Path;
 
 class Syncer
 {
@@ -10,6 +13,7 @@ class Syncer
     private static string $static_annunci_table = 'miogest_synced_annunci';
 
     private string $base_post_url;
+    private string $thumbnails_prefix;
     private string $upload_dir_path;
     private string $now;
     private array $langs;
@@ -46,7 +50,7 @@ class Syncer
             $image_url = array_shift($annuncio['Foto']);
 
             foreach ($post_ids as $post_id) {
-                $filename = "_miogest_sync_$post_id.jpg";
+                $filename = "{$this->thumbnails_prefix}{$post_id}.jpg";
                 $filepath = $this->downloadFotoAndCrop($image_url, $filename);
 
                 $upload_file = wp_upload_bits($filename, null, @file_get_contents($filepath));
@@ -224,6 +228,7 @@ class Syncer
         global $table_prefix;
 
         $this->base_post_url = get_site_url() . '/prova/?post_type=property&p=';
+        $this->thumbnails_prefix = 'miogest_sync_';
         $this->now = current_time('mysql', false);
         $this->upload_dir_path = wp_upload_dir()['path'];
         $this->langs = ["it", "en", 'de'];
@@ -339,6 +344,13 @@ class Syncer
         foreach ($queries as $query) {
             $wpdb->query($wpdb->prepare($query, $this->miogest_sync_annunci_ids));
         }
+    }
+
+    public function deleteOldAnnunciThumbs(): void
+    {
+        $path = Path::join($this->upload_dir_path, '..', '..');
+        $eraser = new EraseThumbnails($path, $this->thumbnails_prefix);
+        $eraser->erase();
     }
 
     public function insertNewAnnunci(): void
