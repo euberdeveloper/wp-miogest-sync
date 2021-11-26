@@ -338,7 +338,11 @@ class Syncer
             getQuery($this->posts_table, 'ID', $format),
             getQuery($this->postmeta_table, 'post_id', $format),
             getQuery($this->term_relationships_table, 'object_id', $format),
-            getQuery($this->icl_translations_table, 'element_id', $format)
+            getQuery($this->icl_translations_table, 'element_id', $format),
+            "
+                DELETE FROM $this->posts_table
+                WHERE post_name LIKE 'miogest_sync_%'
+            "
         ];
 
         foreach ($queries as $query) {
