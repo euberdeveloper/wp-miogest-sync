@@ -17,8 +17,9 @@ jobs:
       - name: Use php composer
         uses: php-actions/composer@v6
 
-      - name: Downgrade code
-        run: composer run rector
+      # Not working because wordpress is outside of the repo code
+      # - name: Downgrade code
+      #   run: composer run rector
 
       - name: Uninstall dev deps
         run: sudo composer update --no-dev
