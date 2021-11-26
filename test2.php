@@ -11,7 +11,7 @@ class Syncer
   private string $base_post_url;
   private array $upload_dir;
   private string $now;
-  private array $post_metadatas;
+  private array $post_metadata_keys;
   private array $langs;
   private array $floors;
 
@@ -40,6 +40,26 @@ class Syncer
     return $fotos_str;
   }
 
+  private function getPostMeta(array $annuncio, string $lang): array
+  {
+    return [
+      'locality' => strtolower(str_replace(' ', '', $annuncio['Comune'])),
+      'property_gallery' => $this->getFotosFromAnnuncio($annuncio),
+      'property_price' => !is_array($annuncio['Prezzo']) ? $annuncio['Prezzo'] : '',
+      'built_in' => !is_array($annuncio['Anno']) ? $annuncio['Anno'] : '',
+      'classe_energetica' => !is_array($annuncio['Classe']) ? $annuncio['Classe'] : '',
+      'stato_immobile' => !is_array($annuncio['Scheda_StatoImmobile']) 
+        ? $this->stati_immobili['valori'][$annuncio['Scheda_StatoImmobile']][$lang]
+        : '',
+      'piano' => !is_array($annuncio['Piano']) ? $this->floors[$lang][$annuncio['Piano']] : '',
+      'codice' => !is_array($annuncio['Codice']) ? $annuncio['Codice'] : '',
+      'property_size' => !is_array($annuncio['Mq']) ? $annuncio['Mq'] : '',
+      'mq_sotto' => !is_array($annuncio['Mq']) ? $annuncio['Mq'] : '',
+      'property_agent' => '290',
+      'property_featured' => '1' // Note: in old code it was 1 if annuncio_index < 4
+    ];
+  }
+
   private function insertAnnuncio(int $annuncio_id, int $post_id, string $lang): void
   {
     global $wpdb;
@@ -55,20 +75,21 @@ class Syncer
     );
   }
 
-  private function insertPost(string $descrizione, string $titolo, string $name): int
+  private function insertPost(string $descrizione, string $titolo, string $name, array $meta_info): int
   {
     $post = [
       'post_content' => $descrizione,
       'post_title' => $titolo,
       'post_name' => $name,
-      'post_type' => "property",
+      'post_type' => 'property',
       'post_date' => $this->now,
       'post_date_gmt' => $this->now,
       'post_modified' => $this->now,
       'post_modified_gmt' => $this->now,
-      'comment_status' => "closed",
-      'post_status' => "publish",
-      'ping_status' => "closed"
+      'comment_status' => 'closed',
+      'post_status' => 'publish',
+      'ping_status' => 'closed',
+      'meta_input' => $meta_info
     ];
 
     $id = wp_insert_post($post);
@@ -84,7 +105,7 @@ class Syncer
     $this->base_post_url = get_site_url() . '/prova/?post_type=property&p=';
     $this->now = current_time('mysql', false);
     $this->upload_dir = wp_upload_dir();
-    $this->post_metadatas = ["_edit_lock", "_edit_last", "property_address", "property_lat", "property_lng", "street_number", "route", "neighborhood", "locality", "administrative_area_level_1", "postal_code", "property_price", "property_price_label", "property_taxes", "property_hoa_dues", "property_beds", "property_baths", "property_size", "internet", "garage", "elevator", "air_conditioning", "pool", "dishwasher", "fireplace", "balcony", "built_in", "lot_width", "lot_depth", "stories", "room_count", "parking_spaces", "property_video", "property_virtual_tour", "property_agent", "property_gallery", "property_floor_plans", "property_calc", "property_featured", "spese_condominiali", "classe_energetica", "stato_immobile", "mq_sotto", "piano", "codice"];
+    $this->post_metadata_keys = ["_edit_lock", "_edit_last", "property_address", "property_lat", "property_lng", "street_number", "route", "neighborhood", "locality", "administrative_area_level_1", "postal_code", "property_price", "property_price_label", "property_taxes", "property_hoa_dues", "property_beds", "property_baths", "property_size", "internet", "garage", "elevator", "air_conditioning", "pool", "dishwasher", "fireplace", "balcony", "built_in", "lot_width", "lot_depth", "stories", "room_count", "parking_spaces", "property_video", "property_virtual_tour", "property_agent", "property_gallery", "property_floor_plans", "property_calc", "property_featured", "spese_condominiali", "classe_energetica", "stato_immobile", "mq_sotto", "piano", "codice"];
     $this->langs = ["it", "en", 'de'];
     $this->floors = [
       'it' => ['Piano terra', 'Primo piano', 'Secondo piano', 'Terzo piano', 'Quarto piano', 'Quinto piano'],
@@ -130,18 +151,24 @@ class Syncer
         return $scheda['id'] == '57';
       })
     )[0];
-    $this->stati_immobili = [
+    $stati_immobili = [
       'nomi' => [
         'it' => $schedaStatiImmobili['nome'],
         'en' => $schedaStatiImmobili['nome_en'],
         'de' => $schedaStatiImmobili['nome_de']
       ],
-      'valori' => [
-        'it' => $schedaStatiImmobili['valori'],
-        'en' => $schedaStatiImmobili['valori_en'],
-        'de' => $schedaStatiImmobili['valori_de']
-      ]
+      'valori' => []
     ];
+    $stati_immobili_valori = $schedaStatiImmobili['valori']['valore'];
+    for ($i = 0; $i < count($stati_immobili_valori); $i++) {
+      $value = $stati_immobili_valori[$i];
+      $stati_immobili['valori'][$value] = [
+        'it' => $schedaStatiImmobili['valori']['valore'][$i],
+        'en' => $schedaStatiImmobili['valori_en']['valore'][$i],
+        'de' => $schedaStatiImmobili['valori_de']['valore'][$i]
+      ];
+    }
+    $this->stati_immobili = $stati_immobili;
   }
 
   public function getAnnunciIds(): void
@@ -154,7 +181,7 @@ class Syncer
     ");
 
     $this->miogest_sync_annunci_ids = array_map(function ($item) {
-      return $item->id;
+      return $item->post_id;
     }, $result);
   }
 
@@ -175,7 +202,7 @@ class Syncer
     }
 
     $queries = [
-      getQuery($this->annunci_table, 'id', $format),
+      getQuery($this->annunci_table, 'post_id', $format),
       getQuery($this->posts_table, 'ID', $format),
       getQuery($this->postmeta_table, 'post_id', $format),
       getQuery($this->term_relationships_table, 'object_id', $format),
@@ -191,7 +218,6 @@ class Syncer
   {
     foreach ($this->annunci as $annuncio) {
       $id = $annuncio['AnnuncioId'];
-      $fotos_str = $this->getFotosFromAnnuncio($annuncio);
 
       // If the description is missing, let it as a default string
       $default_descrizione_it = 'Descrizione mancante';
@@ -212,20 +238,25 @@ class Syncer
       $titolo_it = !is_array($annuncio['Titolo']) ? $annuncio['Titolo'] : $id . '_IT';
       $titolo_en = !is_array($annuncio['Titolo_En'])
         ? $annuncio['Titolo_En']
-        : ($titolo_it != $id . '_IT' ? $titolo_it . '_EN' : $id . '_EN');
+        : ($titolo_it != $id . '_IT' ? $titolo_it : $id . '_EN');
       $titolo_de = !is_array($annuncio['Titolo_De'])
         ? $annuncio['Titolo_De']
-        : ($titolo_it != $id . '_IT' ? $titolo_it . '_DE' : $id . '_DE');
+        : ($titolo_it != $id . '_IT' ? $titolo_it : $id . '_DE');
 
       // The name is the titolo with lowercase and underscores
       $name_it = strtolower(str_replace(' ', '_', $titolo_it));
       $name_en = strtolower(str_replace(' ', '_', $titolo_en));
       $name_de = strtolower(str_replace(' ', '_', $titolo_de));
 
+      // Add metas
+      $meta_info_it = $this->getPostMeta($annuncio, 'it');
+      $meta_info_en = $this->getPostMeta($annuncio, 'en');
+      $meta_info_de = $this->getPostMeta($annuncio, 'de');
+
       // Inserts the posts
-      $post_id_it = $this->insertPost($descrizione_it, $titolo_it, $name_it);
-      $post_id_en = $this->insertPost($descrizione_en, $titolo_en, $name_en);
-      $post_id_de = $this->insertPost($descrizione_de, $titolo_de, $name_de);
+      $post_id_it = $this->insertPost($descrizione_it, $titolo_it, $name_it, $meta_info_it);
+      $post_id_en = $this->insertPost($descrizione_en, $titolo_en, $name_en, $meta_info_en);
+      $post_id_de = $this->insertPost($descrizione_de, $titolo_de, $name_de, $meta_info_de);
 
       // Insert the annunci in the list
       $this->insertAnnuncio($id, $post_id_it, 'it');

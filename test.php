@@ -390,7 +390,7 @@ if ($remote == '77.39.210.53' || $remote == '127.0.0.1' || $_SERVER['REMOTE_ADDR
       $ARR2[34] = '290';
       //FEATURED
       if ($i < 4)
-        $ARR2[38] = '1';
+        $ [38] = '1';
 
 
       /*
@@ -432,7 +432,7 @@ if ($remote == '77.39.210.53' || $remote == '127.0.0.1' || $_SERVER['REMOTE_ADDR
        }
      }
      //echo "Tipo: " . $stringTip . "<br>";
-     $ARR2[42] = $stringTip;*/
+     $  [42] = $stringTip;*/
 
 
 
