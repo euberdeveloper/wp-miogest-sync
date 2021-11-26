@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Resideo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-19 08:03+0000\n"
+"PO-Revision-Date: 2021-08-06 16:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: Italiano\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: resideo"
+
+#: functions.php:603 functions.php:656
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: single-agent.php:101
+msgid "About"
+msgstr "About"
+
+#: header.php:131
+msgid "Account Settings"
+msgstr "Impostazioni dell'account"
+
+#: comments.php:166
+msgid "Agent Reviews"
+msgstr "Recensioni degli agenti"
+
+#: functions.php:61
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin installati e attivati con successo. %1$s"
+
+#: single-property.php:418
+msgid "Amenities"
+msgstr "Servizi"
+
+#: author.php:27
+msgid "Articles By"
+msgstr "Articoli di"
+
+#: functions.php:392 single-property.php:525
+msgid "Arts & Entertainment"
+msgstr "Arte e spettacolo"
+
+#: functions.php:599
+msgid "Author"
+msgstr "Autore"
+
+#: functions.php:55
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Iniziare l'attivazione del plugin"
+msgstr[1] "Iniziare ad attivare i plugin"
+
+#: functions.php:53
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Iniziare l'installazione del plugin"
+msgstr[1] "Iniziare l'installazione dei plugin"
+
+#: functions.php:54
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Iniziare l'aggiornamento del plugin"
+msgstr[1] "Iniziare l'aggiornamento dei plugin"
+
+#: single.php:49
+msgid "By"
+msgstr "Da"
+
+#: functions.php:391 single-property.php:524
+msgid "Cafes & Bars"
+msgstr "Caffè e bar"
+
+#: comments.php:103
+msgid "Cancel Reply"
+msgstr "Annulla la risposta"
+
+#: comments.php:91
+msgid "Cancel Review"
+msgstr "Annullamento della recensione"
+
+#: functions.php:520
+msgid "Column #1 Footer Widget Area"
+msgstr "Colonna #1 Area widget del piè di pagina"
+
+#: functions.php:530
+msgid "Column #2 Footer Widget Area"
+msgstr "Colonna #2 Area widget del piè di pagina"
+
+#: functions.php:540
+msgid "Column #3 Footer Widget Area"
+msgstr "Colonna #3 Area widget del piè di pagina"
+
+#: functions.php:550
+msgid "Column #4 Footer Widget Area"
+msgstr "Colonna #4 Area widget del piè di pagina"
+
+#: comments.php:30 comments.php:125
+msgid "Comment"
+msgstr "Commento"
+
+#: comments.php:32
+msgid "Comments"
+msgstr "Commenti"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: single-property.php:707
+msgid "Contact Agent"
+msgstr "Contattaci"
+
+#: functions.php:320
+msgid "Contacted"
+msgstr "Contattato"
+
+#: functions.php:62
+msgid "Dismiss this notice"
+msgstr "Respingere questo avviso"
+
+#: single-property.php:623
+msgid "Down Payment"
+msgstr "Acconto"
+
+#: functions.php:618
+msgid "Edit"
+msgstr "Modifica"
+
+#: comments.php:142
+msgid "Email"
+msgstr "Email"
+
+#: functions.php:325
+msgid "Engaged"
+msgstr "Impegnato"
+
+#: single-property.php:519
+msgid "Explore the Area"
+msgstr "Esplora la zona"
+
+#: index.php:87 archive.php:94 search.php:75 author.php:77
+#: templates/featured_posts_carousel.php:124
+msgid "Featured"
+msgstr "In evidenza"
+
+#: functions.php:323
+msgid "Fit"
+msgstr "Fit"
+
+#: functions.php:393 single-property.php:526
+msgid "Fitness"
+msgstr "Fitness"
+
+#: single-property.php:474
+msgid "Floor Plans"
+msgstr "Planimetrie"
+
+#. Name of the template
+msgid "Full Width"
+msgstr "A tutta larghezza"
+
+#: functions.php:195
+msgid "Geocode was not successful for the following reason"
+msgstr "La geocodifica non ha avuto successo per il seguente motivo"
+
+#: 404.php:22
+msgid "Go Home"
+msgstr "Andare a casa"
+
+#: functions.php:348 single-property.php:570
+msgid "HOA Dues"
+msgstr "Quote HOA"
+
+#: single-property.php:615
+msgid "Home Price"
+msgstr "Prezzo della casa"
+
+#. Author URI of the theme
+msgid "http://pixelprime.co/"
+msgstr "http://pixelprime.co/"
+
+#. URI of the theme
+msgid "http://pixelprime.co/themes/resideo-wp/"
+msgstr "http://pixelprime.co/themes/resideo-wp/"
+
+#: functions.php:511
+msgid "IDX properties page search form widget area"
+msgstr "Area widget del modulo di ricerca della pagina delle proprietà IDX"
+
+#: functions.php:509
+msgid "IDX Properties Page Search Widget Area"
+msgstr "Area del widget di ricerca della pagina delle proprietà IDX"
+
+#: functions.php:43
+msgid "Install Plugins"
+msgstr "Installare i plugin"
+
+#: functions.php:42
+msgid "Install Required Plugins"
+msgstr "Installare i plugin necessari"
+
+#: functions.php:44
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installazione del plugin: %s"
+
+#: single-property.php:609
+msgid "Interest"
+msgstr "Interesse"
+
+#: single-property.php:357
+msgid "Key Details"
+msgstr "Dettagli chiave"
+
+#: index.php:30
+msgid "Latest Articles"
+msgstr "Articoli più recenti"
+
+#: functions.php:310 functions.php:319
+msgid "Leads"
+msgstr "Porta"
+
+#: comments.php:101
+msgid "Leave a Reply"
+msgstr "Lascia una risposta"
+
+#: comments.php:102
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lascia una risposta a %s"
+
+#: single-property.php:659
+msgid "Listed By"
+msgstr "Elencato da"
+
+#: templates/agent_properties.php:8
+msgid "Listings by"
+msgstr "Annunci di"
+
+#: functions.php:330
+msgid "Loading messages"
+msgstr "Caricamento dei messaggi"
+
+#: functions.php:332
+msgid "Loading saved searches"
+msgstr "Caricamento delle ricerche salvate"
+
+#: functions.php:331
+msgid "Loading wish list"
+msgstr "Caricamento della lista dei desideri"
+
+#: functions.php:498
+msgid "Main Widget Area"
+msgstr "Area principale del widget"
+
+#: header.php:128
+msgid "My Leads"
+msgstr "Le mie piste"
+
+#: header.php:124
+msgid "My Properties"
+msgstr "Le mie proprietà"
+
+#: comments.php:135
+msgid "Name"
+msgstr "Nome"
+
+#: index.php:116 archive.php:123 search.php:104 author.php:106
+msgid "Newer Articles"
+msgstr "Articoli più recenti"
+
+#: comments.php:66
+msgid "Newer Comments"
+msgstr "Commenti più recenti"
+
+#: comments.php:64
+msgid "Newer Reviews"
+msgstr "Recensioni più recenti"
+
+#: functions.php:59
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nessuna azione intrapresa. Il plugin %1$s era già attivo."
+
+#: index.php:106 archive.php:113 search.php:94 author.php:96
+msgid "No articles found"
+msgstr "Nessun articolo trovato"
+
+#: functions.php:326
+msgid "No messages."
+msgstr "Nessun messaggio."
+
+#: templates/agent_properties.php:100
+msgid "No properties found"
+msgstr "Nessun immobile trovato"
+
+#: functions.php:327
+msgid "No properties in wish list."
+msgstr "Nessuna proprietà nella lista dei desideri."
+
+#: templates/related_posts.php:73 templates/related_posts.php:76
+msgid "No related articles"
+msgstr "Nessun articolo correlato"
+
+#: functions.php:328
+msgid "No saved searches."
+msgstr "Nessuna ricerca salvata."
+
+#. Name of the template
+msgid "No Sidebars"
+msgstr "Nessuna barra laterale"
+
+#: functions.php:322
+msgid "None"
+msgstr "Nessuno"
+
+#: functions.php:321
+msgid "Not contacted"
+msgstr "Non contattato"
+
+#: index.php:115 archive.php:122 search.php:103 author.php:105
+msgid "Older Articles"
+msgstr "Articoli più vecchi"
+
+#: comments.php:59
+msgid "Older Comments"
+msgstr "Commenti più vecchi"
+
+#: comments.php:57
+msgid "Older Reviews"
+msgstr "Recensioni più vecchie"
+
+#: single-property.php:409
+msgid "Overview"
+msgstr "Panoramica"
+
+#: single-property.php:534
+msgid "Payment Calculator"
+msgstr "Calcolatrice di pagamento"
+
+#: single-property.php:542
+msgid "per month"
+msgstr "al mese"
+
+#. Author of the theme
+msgid "Pixel Prime"
+msgstr "Pixel Prime"
+
+#: functions.php:64
+msgid "Please contact the administrator of this site for help."
+msgstr "Si prega di contattare l'amministratore di questo sito per aiuto."
+
+#: functions.php:57
+msgid "Plugin activated successfully."
+msgstr "Plugin attivato con successo."
+
+#: functions.php:60
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin non attivato. È necessaria una versione superiore di %s per questo "
+"tema. Si prega di aggiornare il plugin."
+
+#: comments.php:104
+msgid "Post Comment"
+msgstr "Invia un commento"
+
+#: comments.php:92
+msgid "Post Review"
+msgstr "Recensione del post"
+
+#: functions.php:346 single-property.php:550
+msgid "Principal and Interest"
+msgstr "Capitale e interessi"
+
+#: single-property.php:193
+msgid "Print listing"
+msgstr "Stampa dell'elenco"
+
+#: functions.php:347 single-property.php:560
+msgid "Property Taxes"
+msgstr "Tasse sulla proprietà"
+
+#: comments.php:95
+msgid "Rate the agent"
+msgstr "Valuta l'agente"
+
+#: index.php:99 archive.php:106 search.php:87 author.php:89
+#: templates/related_posts.php:67 templates/featured_posts_carousel.php:69
+#: templates/featured_posts_carousel.php:116
+msgid "Read Article"
+msgstr "Leggi l'articolo"
+
+#: functions.php:324
+msgid "Ready"
+msgstr "Pronto"
+
+#: templates/related_posts.php:9
+msgid "Related Articles"
+msgstr "Articoli correlati"
+
+#: functions.php:329
+msgid "Related Property"
+msgstr "Proprietà correlate"
+
+#: single-property.php:203
+msgid "Report problem with listing"
+msgstr "Segnala un problema con l'annuncio"
+
+#. Name of the theme
+msgid "Resideo"
+msgstr "Resideo"
+
+#. Description of the theme
+msgid ""
+"Resideo is a powerful WordPress theme built for real estate professionals."
+msgstr ""
+"Resideo è un potente tema WordPress costruito per i professionisti del "
+"settore immobiliare."
+
+#: functions.php:389 single-property.php:522
+msgid "Restaurants"
+msgstr "Ristoranti"
+
+#: functions.php:56
+msgid "Return to Required Plugins Installer"
+msgstr "Ritorna al programma di installazione dei plugin richiesti"
+
+#: comments.php:24
+msgid "Review"
+msgstr "Recensire"
+
+#: comments.php:26
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: comments.php:75
+msgid "Reviews are closed."
+msgstr "Le recensioni sono chiuse."
+
+#: functions.php:307 single-property.php:166 single-property.php:171
+#: single-property.php:176 single-property.php:178 single-property.php:307
+#: single-property.php:312 single-property.php:317 single-property.php:319
+msgid "Save"
+msgstr "Salva"
+
+#: functions.php:308 single-property.php:168 single-property.php:309
+msgid "Saved"
+msgstr "Salvato"
+
+#: header.php:121
+msgid "Saved Searches"
+msgstr "Ricerca salvata"
+
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: functions.php:390 single-property.php:523
+msgid "Shopping"
+msgstr "Shopping"
+
+#: single-property.php:674 single-agent.php:54
+msgid "Show phone number"
+msgstr "Mostra il numero di telefono"
+
+#: comments.php:169
+msgid "Sign In and Write a Review"
+msgstr "Accedi e scrivi una recensione"
+
+#: header.php:132
+msgid "Sign Out"
+msgstr "Firma fuori"
+
+#: single-agent.php:124
+msgid "Social Media"
+msgstr "I social media"
+
+#: functions.php:46
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con l'API del plugin."
+
+#: single-agent.php:113
+msgid "Specialities"
+msgstr "Specialità"
+
+#: single-property.php:362
+msgid "Status"
+msgstr "Stato"
+
+#: header.php:117
+msgid "Submit New Property"
+msgstr "Presentare una nuova proprietà"
+
+#: single-property.php:597
+msgid "Term"
+msgstr "Termine"
+
+#: functions.php:522
+msgid "The first column footer widget area"
+msgstr "L'area del widget del piè di pagina della prima colonna"
+
+#: functions.php:49
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Il seguente plugin deve essere aggiornato alla sua ultima versione per "
+"garantire la massima compatibilità con questo tema: %1$s."
+msgstr[1] ""
+"I seguenti plugin devono essere aggiornati alla loro ultima versione per "
+"garantire la massima compatibilità con questo tema: %1$s."
+
+#: functions.php:58
+msgid "The following plugin was activated successfully:"
+msgstr "Il seguente plugin è stato attivato con successo:"
+
+#: functions.php:52
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin consigliato è attualmente inattivo: %1$s."
+msgstr[1] "I seguenti plugin consigliati sono attualmente inattivi: %1$s."
+
+#: functions.php:51
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin richiesto è attualmente inattivo: %1$s."
+msgstr[1] "I seguenti plugin richiesti sono attualmente inattivi: %1$s."
+
+#: functions.php:552
+msgid "The fourth column footer widget area"
+msgstr "L'area del widget del piè di pagina della quarta colonna"
+
+#: functions.php:500
+msgid "The main widget area"
+msgstr "L'area principale del widget"
+
+#: functions.php:532
+msgid "The second column footer widget area"
+msgstr "L'area del widget del piè di pagina della seconda colonna"
+
+#: functions.php:542
+msgid "The third column footer widget area"
+msgstr "L'area del widget del piè di pagina della terza colonna"
+
+#: functions.php:63
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Ci sono uno o più plugin richiesti o raccomandati da installare, aggiornare "
+"o attivare."
+
+#: functions.php:50
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "C'è un aggiornamento disponibile per: %1$s."
+msgstr[1] "Ci sono aggiornamenti disponibili per i seguenti plugin: %1$s."
+
+#: 404.php:16
+msgid "This page is off the map"
+msgstr "Questa pagina è fuori dalla mappa"
+
+#: functions.php:48
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Questo tema raccomanda il seguente plugin: %1$s."
+msgstr[1] "Questo tema raccomanda i seguenti plugin: %1$s."
+
+#: functions.php:47
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Questo tema richiede il seguente plugin: %1$s."
+msgstr[1] "Questo tema richiede i seguenti plugin: %1$s."
+
+#: functions.php:101
+msgid "Top primary menu"
+msgstr "Menu principale superiore"
+
+#: functions.php:388 single-property.php:521
+msgid "Transportation"
+msgstr "Trasporto"
+
+#: single-property.php:371
+msgid "Type"
+msgstr "Tipo"
+
+#: functions.php:45
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aggiornamento del plugin: %s"
+
+#: single-property.php:443
+msgid "Video"
+msgstr "Video"
+
+#: templates/agent_properties.php:93
+msgid "View Details"
+msgstr "Vedi dettagli"
+
+#: single-property.php:286
+msgid "View Photos"
+msgstr "Vedi foto"
+
+#: single-property.php:454
+msgid "Virtual Tour"
+msgstr "Tour virtuale"
+
+#: functions.php:318
+msgid "vs last 12 months"
+msgstr "vs ultimi 12 mesi"
+
+#: functions.php:315
+msgid "vs last 30 days"
+msgstr "rispetto agli ultimi 30 giorni"
+
+#: functions.php:316
+msgid "vs last 60 days"
+msgstr "rispetto agli ultimi 60 giorni"
+
+#: functions.php:314
+msgid "vs last 7 days"
+msgstr "vs ultimi 7 giorni"
+
+#: functions.php:317
+msgid "vs last 90 days"
+msgstr "rispetto agli ultimi 90 giorni"
+
+#: 404.php:19
+msgid "We can't seem to find the page you're looking for."
+msgstr ""
+"Non riusciamo a trovare la pagina che stai cercando.\n"
+
+#: comments.php:149
+msgid "Website"
+msgstr "Sito web"
+
+#: header.php:120
+msgid "Wish List"
+msgstr "Lista dei desideri"
+
+#: single-agent.php:61
+msgid "Work with"
+msgstr "Lavorare con"
+
+#: comments.php:89
+msgid "Write a Review"
+msgstr "Scrivi una recensione"
+
+#: comments.php:90
+#, php-format
+msgid "Write a Review to %s"
+msgstr "Scrivi una recensione a %s"
+
+#: comments.php:105
+msgid "Write your comment..."
+msgstr "Scrivi il tuo commento..."
+
+#: single-property.php:599 single-property.php:600 single-property.php:601
+#: single-property.php:602 single-property.php:603
+msgid "Years Fixed"
+msgstr "Anni fissi"
+
+#: functions.php:608
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: comments.php:121
+msgid "Your email address will not be published. "
+msgstr "Il tuo indirizzo e-mail non sarà pubblicato"
+
+#: comments.php:93
+msgid ""
+"Your review helps others decide on the right agent for them. Please tell "
+"others why you recommend this agent."
+msgstr ""
+"La tua recensione aiuta gli altri a decidere sull'agente giusto per loro. "
+"Per favore, di' agli altri perché raccomandi questo agente."
+
+#: functions.php:661
+msgid "Your review is awaiting moderation."
+msgstr "La tua recensione è in attesa di moderazione."
