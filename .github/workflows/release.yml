@@ -32,7 +32,6 @@ jobs:
           files: |
             ./src
             ./vendor
-            ./cronjob.php
             ./wp-miogest-sync.php
             ./sync.php
             ./composer.json
