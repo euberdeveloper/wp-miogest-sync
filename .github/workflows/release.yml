@@ -61,7 +61,7 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ steps.project-version.outputs.version }}"
           prerelease: false
-          title: "Deploy wp miogest sync pulgin"
+          title: "Deploy Wp Miogest Sync Plugin"
           files: |
             wp-miogest-sync-plugin.tar.gz
             wp-miogest-sync-resideo-modified.tar.gz
