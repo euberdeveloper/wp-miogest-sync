@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package WordPress
  * @subpackage Resideo
@@ -7,8 +8,9 @@
 /**
  * Featured properties shortcode
  */
-if (!function_exists('resideo_featured_properties_shortcode')): 
-    function resideo_featured_properties_shortcode($attrs, $content = null) {
+if (!function_exists('resideo_featured_properties_shortcode')) :
+    function resideo_featured_properties_shortcode($attrs, $content = null)
+    {
         extract(shortcode_atts(array('data_content'), $attrs));
 
         if (!isset($attrs['data_content'])) {
@@ -98,7 +100,7 @@ if (!function_exists('resideo_featured_properties_shortcode')):
         $cta_color = isset($s_array['cta_color']) ? $s_array['cta_color'] : '';
         $cta_id = uniqid();
 
-        switch($s_array['layout']) {
+        switch ($s_array['layout']) {
             case '1':
                 $return_string .= '
                     <div class="container-fluid pxp-props-carousel-right ' . esc_attr($margin_class) . '">';
@@ -121,7 +123,7 @@ if (!function_exists('resideo_featured_properties_shortcode')):
                 } else {
                     $shortcode_after = '</div></div></div>';
                 }
-            break;
+                break;
             case '2':
                 $return_string .= '
                     <div class="container-fluid pxp-props-carousel-right pxp-has-intro ' . esc_attr($margin_class) . '">
@@ -144,7 +146,7 @@ if (!function_exists('resideo_featured_properties_shortcode')):
                         <div class="pxp-props-carousel-right-container mt-4 mt-md-5 mt-lg-0">
                             <div class="owl-carousel pxp-props-carousel-right-stage-1">';
                 $shortcode_after = '</div></div></div>';
-            break;
+                break;
             case '3':
                 $return_string .= '
                     <div class="container ' . esc_attr($margin_class) . '">';
@@ -168,8 +170,8 @@ if (!function_exists('resideo_featured_properties_shortcode')):
 
                 $column_class = 'col-sm-12 col-md-6 col-lg-4';
                 $card_margin_class = 'mb-4';
-            break;
-            default: 
+                break;
+            default:
                 $return_string .= '
                     <div class="container-fluid pxp-props-carousel-right ' . esc_attr($margin_class) . '">';
                 if ($s_array['title'] != '') {
@@ -191,16 +193,16 @@ if (!function_exists('resideo_featured_properties_shortcode')):
                 } else {
                     $shortcode_after = '</div></div></div>';
                 }
-            break; 
+                break;
         }
 
-        foreach($posts as $post) : 
+        foreach ($posts as $post) :
             $p_title = $post['post_title'];
             $p_link  = get_permalink($post['ID']);
 
             $gallery     = get_post_meta($post['ID'], 'property_gallery', true);
-            $photos      = explode(',', $gallery);
-			$first_gallery = $photos[0];
+            $photos      = array_slice(explode(',', $gallery), 1);
+            $first_gallery = $photos[0];
             $first_photo = wp_get_attachment_image_src($photos[0], 'pxp-gallery');
 
             if ($first_gallery != '') {
@@ -268,4 +270,3 @@ if (!function_exists('resideo_featured_properties_shortcode')):
         return $return_string;
     }
 endif;
-?>

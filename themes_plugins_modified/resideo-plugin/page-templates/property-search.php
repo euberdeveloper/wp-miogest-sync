@@ -169,7 +169,7 @@ $general_settings = get_option('resideo_general_settings'); ?>
                             $p_link  = get_permalink($prop_id);
 
                             $gallery = get_post_meta($prop_id, 'property_gallery', true);
-                            $photos  = explode(',', $gallery);
+                            $photos  = array_slice(explode(',', $gallery), 1);
 
                             $p_price       = get_post_meta($prop_id, 'property_price', true);
                             $p_price_label = get_post_meta($prop_id, 'property_price_label', true);
