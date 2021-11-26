@@ -48,7 +48,7 @@ class Syncer
       'property_price' => !is_array($annuncio['Prezzo']) ? $annuncio['Prezzo'] : '',
       'built_in' => !is_array($annuncio['Anno']) ? $annuncio['Anno'] : '',
       'classe_energetica' => !is_array($annuncio['Classe']) ? $annuncio['Classe'] : '',
-      'stato_immobile' => !is_array($annuncio['Scheda_StatoImmobile']) 
+      'stato_immobile' => !is_array($annuncio['Scheda_StatoImmobile'])
         ? $this->stati_immobili['valori'][$annuncio['Scheda_StatoImmobile']][$lang]
         : '',
       'piano' => !is_array($annuncio['Piano']) ? $this->floors[$lang][$annuncio['Piano']] : '',
@@ -96,6 +96,40 @@ class Syncer
     wp_update_post(['ID' => $id, 'guid' => $this->base_post_url . $id]);
 
     return $id;
+  }
+
+  private function insertRelationships(array $annuncio, array $record_ids): void
+  {
+    global $wpdb;
+
+    // I have no idea of what this does
+    $arr_cat_miogest = [17, 18, 25, 26, 28, 119, 50, 30, 32, 87, 44, 46, 91, 127, 117, 48, 84, 34, 105, 123, 125, 83, 95, 33, 93, 97, 40, 41, 42, 85, 99, 36, 82, 81, 86, 1];
+    $keys = [11];
+
+    if (array_key_exists('Categoria', $annuncio)) {
+      $categorie = $annuncio['Categoria'];
+      if (!is_array($categorie)) {
+        $categorie = [$categorie];
+      }
+
+      foreach ($categorie as $categoria) {
+        $key = 21 + intval(array_search($categoria, $arr_cat_miogest));
+        array_push($keys, $key);
+      }
+    }
+
+    foreach ($keys as $key) {
+      foreach ($record_ids as $record_id) {
+        $wpdb->insert(
+          $this->term_relationships_table,
+          [
+            'object_id' => $record_id,
+            'term_taxonomy_id' => $key,
+            'term_order' => 0
+          ]
+        );
+      }
+    }
   }
 
   public function __construct()
@@ -244,9 +278,9 @@ class Syncer
         : ($titolo_it != $id . '_IT' ? $titolo_it : $id . '_DE');
 
       // The name is the titolo with lowercase and underscores
-      $name_it = strtolower(str_replace(' ', '_', $titolo_it));
-      $name_en = strtolower(str_replace(' ', '_', $titolo_en));
-      $name_de = strtolower(str_replace(' ', '_', $titolo_de));
+      $name_it = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_it)));
+      $name_en = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_en)));
+      $name_de = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_de)));
 
       // Add metas
       $meta_info_it = $this->getPostMeta($annuncio, 'it');
@@ -262,6 +296,9 @@ class Syncer
       $this->insertAnnuncio($id, $post_id_it, 'it');
       $this->insertAnnuncio($id, $post_id_en, 'en');
       $this->insertAnnuncio($id, $post_id_de, 'de');
+
+      // Insert relationships
+      $this->insertRelationships($annuncio, [$post_id_it, $post_id_en, $post_id_de]);
     }
   }
 }
