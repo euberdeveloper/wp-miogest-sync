@@ -17,7 +17,7 @@ jobs:
       - name: Use php composer
         uses: php-actions/composer@v6
         with:
-          php_version: 7.4
+          php_version: '7.4'
 
       # Not working because wordpress is outside of the repo code
       # - name: Downgrade code
