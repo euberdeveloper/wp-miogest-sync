@@ -57,36 +57,22 @@ class Syncer
 
   private function insertPost(string $descrizione, string $titolo, string $name): int
   {
-    global $wpdb;
+    $post = [
+      'post_content' => $descrizione,
+      'post_title' => $titolo,
+      'post_name' => $name,
+      'post_type' => "property",
+      'post_date' => $this->now,
+      'post_date_gmt' => $this->now,
+      'post_modified' => $this->now,
+      'post_modified_gmt' => $this->now,
+      'comment_status' => "closed",
+      'post_status' => "publish",
+      'ping_status' => "closed"
+    ];
 
-    $wpdb->insert(
-      $this->posts_table,
-      [
-        'post_content' => $descrizione,
-        'post_title' => $titolo,
-        'post_name' => $name,
-        'post_type' => "property",
-        'post_date' => $this->now,
-        'post_date_gmt' => $this->now,
-        'post_modified' => $this->now,
-        'post_modified_gmt' => $this->now,
-        'comment_status' => "closed",
-        'post_status' => "publish",
-        'ping_status' => "closed"
-      ]
-    );
-
-    $id = $wpdb->insert_id;
-
-    $wpdb->update(
-      $this->posts_table,
-      [
-        'guid' => $this->base_post_url . $id
-      ],
-      [
-        'id' => $id
-      ]
-    );
+    $id = wp_insert_post($post);
+    wp_update_post(['ID' => $id, 'guid' => $this->base_post_url . $id]);
 
     return $id;
   }
