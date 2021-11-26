@@ -229,7 +229,7 @@ class Syncer
 
         $this->base_post_url = get_site_url() . '/prova/?post_type=property&p=';
         $this->thumbnails_prefix = 'miogest_sync_';
-        $this->now = current_time('mysql', false);
+        $this->now = current_time('mysql', true);
         $this->upload_dir_path = wp_upload_dir()['path'];
         $this->langs = ["it", "en", 'de'];
         $this->floors = [
