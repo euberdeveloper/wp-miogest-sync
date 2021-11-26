@@ -102,7 +102,7 @@ while (have_posts()) : the_post();
     $size  = get_post_meta($prop_id, 'property_size', true);
 
     $gallery = get_post_meta($prop_id, 'property_gallery', true);
-    $photos  = explode(',', $gallery);
+    $photos  = array_slice(explode(',', $gallery), 1);
 
     $floor_plans = get_post_meta($prop_id, 'property_floor_plans', true);
 
