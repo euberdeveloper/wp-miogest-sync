@@ -1,0 +1,33 @@
+.wp-block-resideo-plugin-single-property {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border: 1px dotted #888;
+}
+.wp-block-resideo-plugin-single-property .single-property-placeholder-img {
+    background: url(../images/single-property-module.png) no-repeat scroll center center;
+    background-size: contain;
+    height: 156px;
+}
+.wp-block-resideo-plugin-single-property .single-property-placeholder-header,
+.wp-block-resideo-plugin-single-property .single-property-placeholder-subheader {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-top: 0;
+}
+.wp-block-resideo-plugin-single-property .components-panel__header h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1.1em;
+}
+.wp-block-resideo-plugin-single-property .single-property-list-item-title {
+    font-weight: 600;
+    margin-top: 7px;
+}
+.wp-block-resideo-plugin-single-property .single-property-list-item-text {
+    font-size: 12px;
+}
+.wp-block-resideo-plugin-single-property fieldset span.components-base-control__label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
