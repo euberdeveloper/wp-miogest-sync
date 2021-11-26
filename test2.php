@@ -278,9 +278,9 @@ class Syncer
         : ($titolo_it != $id . '_IT' ? $titolo_it : $id . '_DE');
 
       // The name is the titolo with lowercase and underscores
-      $name_it = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_it)));
-      $name_en = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_en)));
-      $name_de = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_de)));
+      $name_it = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_it . '_' . $id)));
+      $name_en = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_en . '_' . $id)));
+      $name_de = preg_replace("/[^A-Za-z0-9_]/", '_', strtolower(str_replace(' ', '_', $titolo_de . '_' . $id)));
 
       // Add metas
       $meta_info_it = $this->getPostMeta($annuncio, 'it');
