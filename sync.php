@@ -1,5 +1,7 @@
 <?php
 
+define('WP_MIOGEST_SYNC_WORDPRESS_DIR', '../../..');
+define('WP_MIOGEST_SYNC_PLUGIN_DIR', WP_MIOGEST_SYNC_WORDPRESS_DIR . '/wp-content/plugins/wp-miogest-sync');
 require_once __DIR__ . '/src/autoload.php';
 
 use WpMiogestSync\Utils\Logger;

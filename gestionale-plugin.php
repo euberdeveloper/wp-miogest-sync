@@ -9,6 +9,8 @@
 * Author URI: http://s4web.it
 */
 
+define('WP_MIOGEST_SYNC_WORDPRESS_DIR', ABSPATH);
+define('WP_MIOGEST_SYNC_PLUGIN_DIR', WP_PLUGIN_DIR . '/wp-miogest-sync');
 require_once __DIR__ . '/src/autoload.php';
 
 use WpMiogestSync\Utils\Logger;
