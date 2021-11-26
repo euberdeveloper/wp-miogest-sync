@@ -1,0 +1,3002 @@
+{
+    "Annuncio": [
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "4",
+            "Codice": "V000004",
+            "Creato": "20210708154532",
+            "Modifica": "20211028170221",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Bardolino",
+            "Comune_Istat": "023006",
+            "Zona": {},
+            "Indirizzo": "san severo",
+            "Civico": {},
+            "Latitudine": "45.55005",
+            "Longitudine": "10.72234",
+            "Tipologia": "V",
+            "Tipologia2": "Residenziale",
+            "Categoria": [
+                "44",
+                "17",
+                "1",
+                "34"
+            ],
+            "HomePage": "si",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "420000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "55",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "2",
+            "Camere": "0",
+            "CamereDoppie": "0",
+            "CamereSingole": "0",
+            "Letti": "0",
+            "Bagni": "1",
+            "Balconi": "0",
+            "Terrazzi": "0",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "1",
+            "Classe": "E",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Ottimo",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Centro",
+            "Scheda_TipoCucina": "A Vista",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Cancello Elettrico",
+                "Doppi Vetri",
+                "Doppio Ingresso",
+                "Fibra Ottica",
+                "Impianto Domotica",
+                "Impianto Satellitare",
+                "Parco Condominiale",
+                "Passaggio Automobilistico",
+                "Passaggio Pedonale",
+                "Porta Blindata",
+                "Ripostiglio"
+            ],
+            "Titolo": "IN PIENO CENTRO STORICO ",
+            "Titolo_En": "LOCATED IN THE HISTORIC CENTER",
+            "Titolo_De": "WOHNUNG IN ZENTRUM ",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "BARDOLINO - Appartamento moderno con posto auto esclusivo di proprietà in corte privata, nel cuore del centro storico di Bardolino. L'immobile viene venduto completo di arredo con lussuose finiture e dotato di riscaldamento a pavimento, impianto di aria condizionata e pompa di calore, impianto satellitare, Velux elettrici con sensori per la pioggia, telecomando/pad ed oscuramento zona giorno/notte e connessione ADSL/Fibra già attivata.\nIl palazzo storico, in origine un frantoio e monastero, si trova a 200 metri dal lago, strategico a tutti i principali servizi necessari, quali ristoranti, pizzerie, bar, banche, poste oltre ad avere un comodo negozio di alimentari direttamente all'uscita dal cortile.\nIdeale punto d'appoggio per che vuole assaporare la vita del centro, ma nello stesso tempo nella riservatezza di un'ambiente esclusivo.",
+            "Descrizione_En": "BARDOLINO - We offer for sale a modern apartment with exclusive private parking garage in a private courtyard, in the heart of the historic center of Bardolino. The property is sold complete with furniture with luxurious finishes and equipped with underfloor heating, air conditioning and heat pump, satellite system, electric Velux with rain sensors, remote control / pad and obscuring of the day / night area and ADSL connection. / Fiber already activated.\nThe historic building, originally a monastery and a olive oil mill, is located 200 meters from the lake, strategic to all the main necessary services, such as restaurants, pizzerias, bars, banks, post offices as well as having a convenient grocery story directly at the exit from the courtyard. Ideal advantage for those who want to savor the life of the center, but at the same time in the privacy of an exclusive environment. ",
+            "Descrizione_De": "BARDOLINO - Moderne Wohnung mit exklusivem Privatparkplatz in einem privaten Innenhof, im Herzen des historischen Zentrums von Bardolino. Das Anwesen wird komplett mit Möbeln mit luxuriösen Oberflächen verkauft und ist mit Fußbodenheizung, Klimaanlage und Wärmepumpe, Satellitenanlage, elektrischem Velux mit Regensensoren, Fernbedienung / Pad und Verdunkelung des Tag / Nachtbereichs und ADSL-Anschluss ausgestattet. / Glasfaser bereits aktiviert.\nDas historische Gebäude, ursprünglich eine Ölmühle und ein Kloster, liegt 200 Meter vom See entfernt, strategisch zu allen wichtigen Dienstleistungen wie Restaurants, Pizzerien, Bars, Banken sowie einem praktischen Lebensmittelgeschäft direkt vor dem Hof.\nIdealer Ausgangspunkt für diejenigen, die das Leben des Zentrums genießen möchten, aber gleichzeitig in der Privatsphäre einer exklusiven Umgebung.",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_457-1024-.jpg",
+                "https://img.miogest.com/24229/imm_448-1024-.jpg",
+                "https://img.miogest.com/24229/imm_449-1024-.jpg",
+                "https://img.miogest.com/24229/imm_450-1024-.jpg",
+                "https://img.miogest.com/24229/imm_451-1024-.jpg",
+                "https://img.miogest.com/24229/imm_452-1024-.jpg",
+                "https://img.miogest.com/24229/imm_453-1024-.jpg",
+                "https://img.miogest.com/24229/imm_454-1024-.jpg",
+                "https://img.miogest.com/24229/imm_455-1024-.jpg",
+                "https://img.miogest.com/24229/imm_456-1024-.jpg",
+                "https://img.miogest.com/24229/imm_458-1024-.jpg",
+                "https://img.miogest.com/24229/imm_459-1024-.jpg",
+                "https://img.miogest.com/24229/imm_460-1024-.jpg",
+                "https://img.miogest.com/24229/imm_461-1024-.jpg",
+                "https://img.miogest.com/24229/imm_462-1024-.jpg",
+                "https://img.miogest.com/24229/imm_463-1024-.jpg",
+                "https://img.miogest.com/24229/imm_464-1024-.jpg",
+                "https://img.miogest.com/24229/imm_465-1024-.jpg",
+                "https://img.miogest.com/24229/imm_466-1024-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37011",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_457-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_448-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_449-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_450-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_451-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_452-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_453-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_454-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_455-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_456-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_458-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_459-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_460-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_461-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_462-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_463-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "16"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_464-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "17"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_465-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "18"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_466-1024-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "7",
+            "Codice": "V000007",
+            "Creato": "20210714103617",
+            "Modifica": "20211025153556",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Bardolino",
+            "Comune_Istat": "023006",
+            "Zona": {},
+            "Indirizzo": "via croce",
+            "Civico": {},
+            "Latitudine": "45.54696",
+            "Longitudine": "10.72609",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "1",
+            "HomePage": "no",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "490000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "120",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "4",
+            "Camere": "2",
+            "CamereDoppie": "0",
+            "CamereSingole": "0",
+            "Letti": "0",
+            "Bagni": "2",
+            "Balconi": "0",
+            "Terrazzi": "1",
+            "Piano": "2",
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "2",
+            "PostiAuto": "0",
+            "Classe": "VA",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Buono",
+            "Scheda_Grado": "Medio",
+            "Scheda_Posizione": "Centro",
+            "Scheda_Panorama": "Vista Giardino",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "4",
+            "Scheda_Giardino": "Privato",
+            "Scheda_Arredi": "Semi Arredato",
+            "Scheda_TipoSoggiorno": "Sala da Pranzo",
+            "Scheda_TipoCucina": "Abitabile",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Caldaia",
+            "Scheda_TipoImpianto": "Radiatori",
+            "Scheda_FonteEnergetica": "Metano",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Serramenti": "Buono",
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "Uno",
+            "Accessori": [
+                "Doppi Vetri",
+                "Doppio Ingresso",
+                "Ingresso Indipendente",
+                "Lavanderia",
+                "Piscina",
+                "Porta Blindata",
+                "Ripostiglio",
+                "Video Citofono"
+            ],
+            "Titolo": "PIANO TERRA CON GIARDINO PRIVATO",
+            "Titolo_En": "APARTMENT WITH PRIVATE GARDEN",
+            "Titolo_De": "WOHNUNG MIT POOL ",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "BARDOLINO - Proponiamo in vendita appartamento su 2 livelli a poca distanza dal centro di Bardolino in zona tranquilla.\nAl piano terra troviamo un ampio soggiorno con cucina, con affaccio su un comodo giardino. Troviamo inoltre, un bagno ed una camera da letto, anche questi affacciati su un secondo giardino.\nAttraverso una scalinata interna si arriva alla taverna, ad un secondo bagno, ed un guardaroba.\nOttima soluzione per chi piace vivere in un contesto tranquillo e al contempo nel centro di Bardolino.",
+            "Descrizione_En": "BARDOLINO - We offer for sale an apartament on 2 levels not far from the center of Bardolino in a quiet area. On the ground floor there is a large living room with kitchen, overlooking a comfortable garden. We also find a bathroom and a bedroom, also overlooking a second garden. An internal staircase leads to the tavern, a second bathroom, and a wardrobe. Excellent solution for those who like to live in a quiet environment and at the same time in the center of Bardolino. ",
+            "Descrizione_De": "BARDOLINO - Wir bieten einen Wohnung auf 2 Ebenen unweit des Zentrums von Bardolino in einer ruhigen Gegend. Im Erdgeschoss befindet sich ein großes Wohnzimmer mit Küche mit Blick auf einen gemütlichen Garten. Wir finden auch ein Badezimmer und ein Schlafzimmer, ebenfalls mit Blick auf einen zweiten Garten. Eine interne Treppe führt zur Taverne, einem zweiten Badezimmer und einem Kleiderschrank. Ausgezeichnete Lösung für diejenigen, die gerne in einer ruhigen Umgebung wohnen und gleichzeitig im Zentrum von Bardolino. ",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_371-1000-.jpg",
+                "https://img.miogest.com/24229/imm_372-1000-.jpg",
+                "https://img.miogest.com/24229/imm_373-1000-.jpg",
+                "https://img.miogest.com/24229/imm_374-800-.jpg",
+                "https://img.miogest.com/24229/imm_375-1280-.jpg",
+                "https://img.miogest.com/24229/imm_376-1280-.jpg",
+                "https://img.miogest.com/24229/imm_377-1280-.jpg",
+                "https://img.miogest.com/24229/imm_378-1280-.jpg",
+                "https://img.miogest.com/24229/imm_379-1280-.jpg",
+                "https://img.miogest.com/24229/imm_380-1000-.jpg",
+                "https://img.miogest.com/24229/imm_381-999-.jpg",
+                "https://img.miogest.com/24229/imm_386-1000-.jpg",
+                "https://img.miogest.com/24229/imm_385-1000-.jpg",
+                "https://img.miogest.com/24229/imm_383-1000-.jpg",
+                "https://img.miogest.com/24229/imm_382-1000-.jpg",
+                "https://img.miogest.com/24229/imm_384-1000-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37011",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_371-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_372-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_373-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_374-800-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_375-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_376-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_377-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_378-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_379-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_380-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_381-999-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_386-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_385-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_383-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_382-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_384-1000-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "8",
+            "Codice": "V000008",
+            "Creato": "20210715101925",
+            "Modifica": "20211118171243",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Costermano sul Garda",
+            "Comune_Istat": "023030",
+            "Zona": "Castion",
+            "Indirizzo": "castion",
+            "Civico": {},
+            "Latitudine": "45.58591",
+            "Longitudine": "10.74302",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "28",
+            "HomePage": "no",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "1000000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "2021",
+            "Mq": "400",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "7",
+            "Camere": "4",
+            "CamereDoppie": "0",
+            "CamereSingole": "0",
+            "Letti": "0",
+            "Bagni": "4",
+            "Balconi": "0",
+            "Terrazzi": "0",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "0",
+            "Classe": "A+",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Prossima Realizzazione",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Lago",
+            "Scheda_Panorama": "Vista Lago",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "4",
+            "Scheda_Giardino": "Privato",
+            "Scheda_Arredi": "Non Arredato",
+            "Scheda_TipoSoggiorno": "Soggiorno",
+            "Scheda_TipoCucina": "Abitabile",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Doppi Vetri",
+                "Impianto Fotovoltaico",
+                "Pannelli Solari",
+                "Piscina",
+                "Rete Dati",
+                "Ripostiglio"
+            ],
+            "Titolo": "VILLA SINGOLA ",
+            "Titolo_En": "Detached House",
+            "Titolo_De": "VILLA",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "COSTERMANO SUL GARDA - Castion - Proponiamo in vendita una villa indipendente con vista lago, \nla villa è composta al piano terra da quattro grandi camere da letto doppie, quattro bagni, una grande e luminosa zona giorno con angolo cottura di oltre 60 mq. Al piano superiore abbiamo un sottotetto non abitabile di oltre 200 mq.\nAl piano interrato possiamo trovare un garage per 5 posti auto, un deposito, una stanza guardaroba, una cantina, un vano tecnico e un grande ripostiglio.",
+            "Descrizione_En": "COSTERMANO SUL GARDA - Castion -We offer for sale an independent villa with lake view, the villa is composed on the ground floor of four large double bedrooms, four bathrooms, a large and bright living area with kitchenette of over 60 square meters. Upstairs we have a uninhabitable attic of over 200 square meters. In the basement we can find a garage for 5 cars, a storage, a wardrobe room, a cellar, a technical room and a large utility room.",
+            "Descrizione_De": "COSTERMANO SUL GARDA - Castion - Wir bieten zum Verkauf eine unabhängige Villa mit Seeblick an.\nDie Villa besteht im Erdgeschoss aus vier großen Doppelzimmern, vier Bädern, einem großen und hellen Wohnbereich mit Küchenzeile von über 60 Quadratmetern. Im Obergeschoss haben wir einen nicht bewohnbaren Dachboden von über 200 Quadratmetern.\nIm Untergeschoss finden wir eine Garage für 5 Autos, einen Abstellraum, einen Garderobenraum, einen Keller, einen Technikraum und einen großen Abstellraum.",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_446-1052-.jpg",
+                "https://img.miogest.com/24229/imm_412-1000-.jpg",
+                "https://img.miogest.com/24229/imm_410-1000-.jpg",
+                "https://img.miogest.com/24229/imm_417-1000-.jpg",
+                "https://img.miogest.com/24229/imm_415-1000-.jpg",
+                "https://img.miogest.com/24229/imm_416-1000-.jpg",
+                "https://img.miogest.com/24229/imm_414-1000-.jpg",
+                "https://img.miogest.com/24229/imm_445-1052-.jpg",
+                "https://img.miogest.com/24229/imm_447-1052-.jpg",
+                "https://img.miogest.com/24229/imm_500-1000-.jpg",
+                "https://img.miogest.com/24229/imm_501-1000-.jpg",
+                "https://img.miogest.com/24229/imm_411-860-.jpg",
+                "https://img.miogest.com/24229/imm_413-1000-.jpg",
+                "https://img.miogest.com/24229/imm_418-848-.jpg",
+                "https://img.miogest.com/24229/imm_502-1000-.jpg",
+                "https://img.miogest.com/24229/imm_503-1000-.jpg",
+                "https://img.miogest.com/24229/imm_504-999-.jpg",
+                "https://img.miogest.com/24229/imm_505--1000.jpg",
+                "https://img.miogest.com/24229/imm_506-1000-.jpg",
+                "https://img.miogest.com/24229/imm_507-1000-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37010",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_446-1052-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_412-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_410-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_417-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_415-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_416-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_414-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_445-1052-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_447-1052-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_500-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_501-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_411-860-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_413-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_418-848-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_502-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_503-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "16"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_504-999-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "17"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_505--1000.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "18"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_506-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "19"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_507-1000-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "13",
+            "Codice": "V000013",
+            "Creato": "20210809105823",
+            "Modifica": "20211025155050",
+            "Scadenza": "20220731",
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Garda",
+            "Comune_Istat": "023036",
+            "Zona": {},
+            "Indirizzo": "via della pace",
+            "Civico": "30",
+            "Latitudine": "45.58239",
+            "Longitudine": "10.72495",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "1",
+            "HomePage": "si",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "335000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "2012",
+            "Mq": "85",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "3",
+            "Camere": "2",
+            "CamereDoppie": "1",
+            "CamereSingole": "1",
+            "Letti": "0",
+            "Bagni": "1",
+            "Balconi": "1",
+            "Terrazzi": "1",
+            "Piano": "1",
+            "LivelliInterni": "0",
+            "PianiCondominio": "2",
+            "UnitaCondominio": "0",
+            "Box": "1",
+            "PostiAuto": "1",
+            "Classe": "B",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Ottimo",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Lago",
+            "Scheda_Panorama": "Vista Lago",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "4",
+            "Scheda_Giardino": "Comune",
+            "Scheda_Arredi": "Non Arredato",
+            "Scheda_TipoSoggiorno": "Soggiorno",
+            "Scheda_TipoCucina": "Angolo Cottura",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Caldaia a Condensazione",
+            "Scheda_TipoImpianto": "Pavimento",
+            "Scheda_FonteEnergetica": "Gas",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Infissi": "PVC Doppio Vetro",
+            "Scheda_Serramenti": "Ottimo",
+            "Scheda_PavimentoGiorno": "Ceramica",
+            "Scheda_PavimentoNotte": "Ceramica",
+            "Scheda_PavimentoCucina": "Ceramica",
+            "Scheda_PavimentoBagno": "Ceramica",
+            "Scheda_TotalePiani": "Due",
+            "Scheda_Balconi": "Uno",
+            "Scheda_Terrazzi": "Uno",
+            "Accessori": [
+                "Aria Condizionata",
+                "Doppi Vetri",
+                "Impianto Domotica",
+                "Impianto Satellitare",
+                "Ingresso Indipendente",
+                "Parco Condominiale",
+                "Passaggio Automobilistico",
+                "Passaggio Pedonale",
+                "Piscina",
+                "Porta Blindata",
+                "Video Citofono"
+            ],
+            "Titolo": "APPARTAMENTO IN RESIDENCE CON PISCINA",
+            "Titolo_En": " IN RESIDENCE WITH SWIMMING POOL",
+            "Titolo_De": "WOHNUNG MIT POOL ",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "GARDA - In un contesto di recente residence con piscina, proponiamo appartamento al piano primo con terrazzo e scorcio di vista lago. \nL' ingresso da in un ampia zona giorno con angolo cottura, troviamo poi una camera matrimoniale molto ampia, un ulteriore camera da letto, e un bagno finestrato. Nell'interrato garage. Dal terrazzo vista panoramica e lago. ",
+            "Descrizione_En": "GARDA - In a recent residence with swimming pool, we propose flat on the first floor with terrace and lake view. \nThe entrance leads into a large living area with kitchenette, then we find a very large double bedroom, another bedroom, and a bathroom with window. In the basement we have garage. From the terrace panoramic view and lake view. ",
+            "Descrizione_De": "GARDA - In einer neueren Residenz mit Pool bieten wir eine Wohnung im ersten Stock mit Terrasse und Seeblick an.\nDer Eingang führt in einen großen Wohnbereich mit Küchenzeile, dann finden wir ein sehr großes Schlafzimmer mit Doppelbett, ein weiteres Schlafzimmer und ein Badezimmer mit Fenster. Im Keller haben wir Garage. Von der Terrasse Panoramablick und Seeblick.",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_181-1280-.jpg",
+                "https://img.miogest.com/24229/imm_183-1280-.jpg",
+                "https://img.miogest.com/24229/imm_184-1280-.jpg",
+                "https://img.miogest.com/24229/imm_182-1280-.jpg",
+                "https://img.miogest.com/24229/imm_185-1280-.jpg",
+                "https://img.miogest.com/24229/imm_187-1280-.jpg",
+                "https://img.miogest.com/24229/imm_188-1280-.jpg",
+                "https://img.miogest.com/24229/imm_186-1280-.jpg",
+                "https://img.miogest.com/24229/imm_252--1280.jpg",
+                "https://img.miogest.com/24229/imm_253--1280.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37016",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_181-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_183-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_184-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_182-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_185-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_187-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_188-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_186-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "planimetria",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_252--1280.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "planimetria",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_253--1280.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "14",
+            "Codice": "V000014",
+            "Creato": "20210827172716",
+            "Modifica": "20211026154338",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Caprino Veronese",
+            "Comune_Istat": "023018",
+            "Zona": {},
+            "Indirizzo": "caprino veronese",
+            "Civico": {},
+            "Latitudine": "45.60618",
+            "Longitudine": "10.79483",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "34",
+            "HomePage": "no",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "890000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "300",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "1500",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "4",
+            "Camere": "3",
+            "CamereDoppie": "2",
+            "CamereSingole": "1",
+            "Letti": "0",
+            "Bagni": "2",
+            "Balconi": "2",
+            "Terrazzi": "0",
+            "Piano": "0,5",
+            "LivelliInterni": "0",
+            "PianiCondominio": "2",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "2",
+            "Classe": "A1",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Rustico",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Collina",
+            "Scheda_Panorama": "Vista Aperta",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "4",
+            "Scheda_Giardino": "Privato",
+            "Scheda_Arredi": "Semi Arredato",
+            "Scheda_TipoSoggiorno": "Sala da Pranzo",
+            "Scheda_TipoCucina": "Abitabile",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Pompa di Calore",
+            "Scheda_TipoImpianto": "Aria",
+            "Scheda_FonteEnergetica": "Metano",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Infissi": "PVC Doppio Vetro",
+            "Scheda_PavimentoCucina": "Gres Porcellanato",
+            "Scheda_TotalePiani": "Due",
+            "Scheda_Balconi": "Due",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Antifurto",
+                "Aria Condizionata",
+                "Cancello Elettrico",
+                "Doppi Vetri",
+                "Doppio Ingresso",
+                "Impianto Domotica",
+                "Ingresso Indipendente",
+                "Lavanderia",
+                "Porta Blindata",
+                "Rete Dati",
+                "Ripostiglio",
+                "Veranda",
+                "Video Citofono"
+            ],
+            "Titolo": "RUSTICO IN STILE MODERNO ",
+            "Titolo_En": "MODERN RUSTICO ",
+            "Titolo_De": "RUSTICO ",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "CAPRINO VERONESE - In una bellissima posizione panoramica e dominante l’intera vallata e con una parziale vista lago proponiamo rustico ristrutturato singolo su terreno di 1500 metri quadri. Recentemente ristrutturato e completato di plateatico esterno con portico, l’immobile viene venduto completo di arredi. Al piano terra troviamo ampio soggiorno con camino cucina separata e studio che può tranquillamente essere usato come camera singola completo di soppalco e bagno. Dal soggiorno si accede al giardino esterno e alla zona del portico dove troviamo un piacevole salotto da esterni. Al piano primo camera da letto e bagno; all’ultimo piano una ulteriore camera da letto suite con cabina armadio,\nA livello delle camere da letto del primo piano la camera padronale matrimoniale gode di un bellissimo terrazzo sul quale c è la possibilità di mettere una vasca Jacuzzi. Pace e tranquillità sono alla base di questo oggetto. Assolutamente da vedere!",
+            "Descrizione_En": "CAPRINO VERONESE - In a beatiful and panoramic position and dominanting the entire valley and with a parcial view on the lake, we propose a single, restructured rustic building on land of 1.500 square meters. Recently renovated and completed with external terrace with colonnade, the property is sold complete with furniture. On the ground floor there is a wide living room with a chimney. separete kitchen and a studio that can easily be used like a single room with a mezzanine and a bathroom. The living room leads to outdoor garden and porch area, where we find a pleasant outdoor lounge.\nOn the first floor there are a bedroom and a bathroom; on the top floor there is another bedroom suite with a walk-in wardrobe.\nAt the level of the bedrooms on first floor, the master bedroom has a beatiful terrace on which there is the possibility to put a Jacuzzi.\nPeace and tranquility are the base of this object. A must see!",
+            "Descrizione_De": "CAPRINO VERONESE - In wunderschöner Panorama- und beherrschender Stellung über das gesamte Tal und mit teilweisem Seeblick bieten wir ein einzelnes renoviertes Ferienhaus auf einem Grundstück von 1500 Quadratmetern. Kürzlich renoviert und mit einer Außenterrasse mit Veranda versehen, wird das Anwesen komplett möbliert verkauft. Im Erdgeschoss befindet sich ein großes Wohnzimmer mit Kamin, separater Küche und Arbeitszimmer, das problemlos als Einzelzimmer mit Zwischengeschoss und Bad genutzt werden kann. Das Wohnzimmer führt zum Garten im Freien und zur Veranda, wo wir eine angenehme Lounge im Freien finden. Im ersten Stock Schlafzimmer und Badezimmer; im Dachgeschoss eine weitere Schlafzimmersuite mit begehbarem Kleiderschrank,\nAuf der Ebene der Schlafzimmer im ersten Stock genießt das Hauptschlafzimmer eine schöne Terrasse, auf der es die Möglichkeit gibt, einen Whirlpool aufzustellen. Ruhe und Beschaulichkeit sind die Grundlage dieses Objekts. Etwas, das man gesehen haben muss!",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_425-1280-.jpg",
+                "https://img.miogest.com/24229/imm_426-1280-.jpg",
+                "https://img.miogest.com/24229/imm_427-1280-.jpg",
+                "https://img.miogest.com/24229/imm_428-1280-.jpg",
+                "https://img.miogest.com/24229/imm_429-1280-.jpg",
+                "https://img.miogest.com/24229/imm_430-1280-.jpg",
+                "https://img.miogest.com/24229/imm_431-1280-.jpg",
+                "https://img.miogest.com/24229/imm_432-1280-.jpg",
+                "https://img.miogest.com/24229/imm_433-1280-.jpg",
+                "https://img.miogest.com/24229/imm_434-1280-.jpg",
+                "https://img.miogest.com/24229/imm_435-1280-.jpg",
+                "https://img.miogest.com/24229/imm_436-1280-.jpg",
+                "https://img.miogest.com/24229/imm_437-1280-.jpg",
+                "https://img.miogest.com/24229/imm_438-1280-.jpg",
+                "https://img.miogest.com/24229/imm_439-1280-.jpg",
+                "https://img.miogest.com/24229/imm_440-1280-.jpg",
+                "https://img.miogest.com/24229/imm_441-1280-.jpg",
+                "https://img.miogest.com/24229/imm_442-1280-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37013",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_425-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_426-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_427-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_428-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_429-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_430-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_431-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_432-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_433-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_434-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_435-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_436-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_437-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_438-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_439-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_440-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "16"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_441-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "17"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_442-1280-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "15",
+            "Codice": "V000015",
+            "Creato": "20210903171147",
+            "Modifica": "20211025154404",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Caprino Veronese",
+            "Comune_Istat": "023018",
+            "Zona": {},
+            "Indirizzo": "via gardesana ",
+            "Civico": {},
+            "Latitudine": "45.60419",
+            "Longitudine": "10.7849",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "1",
+            "HomePage": "no",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "255000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "80",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "3",
+            "Camere": "2",
+            "CamereDoppie": "1",
+            "CamereSingole": "1",
+            "Letti": "0",
+            "Bagni": "2",
+            "Balconi": "0",
+            "Terrazzi": "0",
+            "Piano": "1",
+            "LivelliInterni": "0",
+            "PianiCondominio": "2",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "1",
+            "Classe": "C",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Ottimo",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Collina",
+            "Scheda_Panorama": "Vista Aperta",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "4",
+            "Scheda_Giardino": "Comune",
+            "Scheda_Arredi": "Semi Arredato",
+            "Scheda_TipoSoggiorno": "Soggiorno",
+            "Scheda_TipoCucina": "Angolo Cottura",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Caldaia",
+            "Scheda_TotalePiani": "Due",
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Porta Blindata",
+                "Video Citofono"
+            ],
+            "Titolo": "TRILOCALE CON TERRAZZO",
+            "Titolo_En": "THREE-ROOM APARTMENT WITH TERRACE",
+            "Titolo_De": "Große Dreizimmerwohnung mit Terrasse und herrliche",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "CAPRINO VERONESE - Vicino al paese proponiamo trilocale disposto su due livelli con ampio terrazzo con vista su tutta la collina circostante. Al piano primo ingresso, soggiorno con angolo, camera matrimoniale, una camera singola, bagno ed un vano lavanderia. Al piano superiore la zona mansardata con un bagno e una grande stanza. A completare l'immobile posto auto coperti al piano interrato e una cantina. La palazzina è inserita in un contesto immerso nel verde, assoluta tranquillità. Da vedere! \n\n\n",
+            "Descrizione_En": "CAPRINO VERONESE - Near the town we offer this three-room apartment on two levels with a large terrace overlooking the entire surrounding hill. On the first floor there is an entrance, a living room with a corner, a double bedroom, a single bedroom, a bathroom and a laundry room. Upstairs the attic area with a bathroom and a large room. To complete the property covered parking space in the basement and a cellar. The building is inserted in a context surrounded by greenery, absolute tranquility. To be seen!",
+            "Descrizione_De": "CAPRINO VERONESE - Wie bieten zum Verkauf eine stilvoll und elegant eingerichtete Dreizimmerwohnung auf zwei Ebenen im oberen Stockwerk einer gepflegten Anlage an. In der ersten Etage der Wohnbereich mit Ess-und Wohnzimmer, eine Eckküche und einer verdeckt ausziehbaren Küchenzeile , ein Badezimmer mit Fenster, ein Doppelzimmer, ein Einzelzimmer und eine kleine Waschküche. Im Obergeschoss befindet sich der geräumige Dachboden mit einem weiteren Badezimmer. Ein überdachter Parkplatz und ein Keller vervollständigen das Objekt.",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_350-1000-.jpg",
+                "https://img.miogest.com/24229/imm_348-1000-.jpg",
+                "https://img.miogest.com/24229/imm_352-1000-.jpg",
+                "https://img.miogest.com/24229/imm_354-1000-.jpg",
+                "https://img.miogest.com/24229/imm_345-1000-.jpg",
+                "https://img.miogest.com/24229/imm_351-1000-.jpg",
+                "https://img.miogest.com/24229/imm_347-1000-.jpg",
+                "https://img.miogest.com/24229/imm_349-1000-.jpg",
+                "https://img.miogest.com/24229/imm_353-1000-.jpg",
+                "https://img.miogest.com/24229/imm_355-1000-.jpg",
+                "https://img.miogest.com/24229/imm_356-1000-.jpg",
+                "https://img.miogest.com/24229/imm_357-1000-.jpg",
+                "https://img.miogest.com/24229/imm_346-1000-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37013",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_350-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_348-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_352-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_354-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_345-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_351-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_347-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_349-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_353-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_355-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_356-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_357-1000-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_346-1000-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": "1",
+            "AnnuncioId": "17",
+            "Codice": "V000017",
+            "Creato": "20210928172621",
+            "Modifica": "20211108111933",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Bardolino",
+            "Comune_Istat": "023006",
+            "Zona": {},
+            "Indirizzo": "VIA GARDESANA ",
+            "Civico": {},
+            "Latitudine": "45.55033",
+            "Longitudine": "10.72253",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "1",
+            "HomePage": "si",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "380000",
+            "Prezzo_Riservato": "1",
+            "Prezzo_Spese": "0",
+            "Anno": "2022",
+            "Mq": "90",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "3",
+            "Camere": "2",
+            "CamereDoppie": "1",
+            "CamereSingole": "1",
+            "Letti": "0",
+            "Bagni": "1",
+            "Balconi": "1",
+            "Terrazzi": "1",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "1",
+            "Classe": "A4",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "In Costruzione",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Centro",
+            "Scheda_Panorama": "Vista Aperta",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "4",
+            "Scheda_Giardino": "Privato",
+            "Scheda_Arredi": "Non Arredato",
+            "Scheda_TipoSoggiorno": "Soggiorno",
+            "Scheda_TipoCucina": "Angolo Cottura",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoImpianto": "Aria",
+            "Scheda_Infissi": "PVC Doppio Vetro",
+            "Scheda_PavimentoGiorno": "Parquet",
+            "Scheda_PavimentoNotte": "Parquet",
+            "Scheda_PavimentoCucina": "Gres Porcellanato",
+            "Scheda_PavimentoBagno": "Gres Porcellanato",
+            "Scheda_AccessoDisabili": "Rampa",
+            "Scheda_Balconi": "Uno",
+            "Scheda_Terrazzi": "Uno",
+            "Accessori": [
+                "Aria Condizionata",
+                "Cancello Elettrico",
+                "Doppi Vetri",
+                "Doppio Ingresso",
+                "Pannelli Solari",
+                "Porta Blindata"
+            ],
+            "Titolo": "NUOVI APPARTAMENTI IN CENTRO PAESE",
+            "Titolo_En": "NEW APARTMENTS IN CENTER OF BARDOLINO",
+            "Titolo_De": "RESIDENZ IM STANDTZENTRUM ",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "Bardolino - Nuovissimo complesso in costruzione a pochi passi dal centro paese. Poche unità abitative tutte dotate di grandi terrazzi abitabili. Trilocali con ampi soggiorni ed angolo cottura, camera matrimoniale, camera singola e bagno. Nell'interrato posto auto privato coperto di proprietà. Da vedere assolutamente!\n",
+            "Descrizione_En": "Bardolino - New building under construction a few steps from the center of Bardolino. Few housing units equipped of big, habitable terraces. Three-room apartments with large living rooms and kitchenette, double bedroom, single bedroom and a bathroom. In the basement there is a covered parking garage of property. Absoluty to be seen!",
+            "Descrizione_De": "Bardolino - Komplex im Bau, nur wenige Schritte vom Stadtzentrum entfernt. Nur wenige Wohneinheiten, die alle mit großen bewohnbaren Terrassen und Garten ausgestattet sind. Dreizimmerwohnungen mit großem Wohnzimmer und Kochnische, Doppelzimmer, Einzelzimmer und Bad. Privater überdachter Parkplatz im Untergeschoss. Etwas, das man gesehen haben muss!",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": "1",
+            "Foto": [
+                "https://img.miogest.com/24229/imm_301-1280-.jpg",
+                "https://img.miogest.com/24229/imm_304-1280-.jpg",
+                "https://img.miogest.com/24229/imm_305-1280-.jpg",
+                "https://img.miogest.com/24229/imm_303-1280-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37011",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_301-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_304-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_305-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_303-1280-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "18",
+            "Codice": "V000018",
+            "Creato": "20211013174720",
+            "Modifica": "20211116183350",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Costermano sul Garda",
+            "Comune_Istat": "023030",
+            "Zona": "Marciaga",
+            "Indirizzo": "via ghiandare",
+            "Civico": {},
+            "Latitudine": "45.58879",
+            "Longitudine": "10.7068",
+            "Tipologia": "V",
+            "Tipologia2": {},
+            "Categoria": "1",
+            "HomePage": "si",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "295000",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "1990",
+            "Mq": "80",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "3",
+            "Camere": "0",
+            "CamereDoppie": "1",
+            "CamereSingole": "1",
+            "Letti": "0",
+            "Bagni": "2",
+            "Balconi": "0",
+            "Terrazzi": "0",
+            "Piano": "0",
+            "LivelliInterni": "0",
+            "PianiCondominio": "2",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "1",
+            "Classe": "C",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Ottimo",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Posizione": "Collina",
+            "Scheda_Panorama": "Vista Aperta",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "2",
+            "Scheda_Giardino": "Comune",
+            "Scheda_Arredi": "Semi Arredato",
+            "Scheda_TipoSoggiorno": "Soggiorno",
+            "Scheda_TipoCucina": "Cucinotto",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Caldaia",
+            "Scheda_TipoImpianto": "Radiatori",
+            "Scheda_FonteEnergetica": "GPL",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Serramenti": "Buono",
+            "Scheda_Persiana": "Oscurante Legno",
+            "Scheda_PavimentoGiorno": "Ceramica",
+            "Scheda_PavimentoNotte": "Ceramica",
+            "Scheda_PavimentoCucina": "Ceramica",
+            "Scheda_PavimentoBagno": "Ceramica",
+            "Scheda_TotalePiani": "Due",
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Cancello Elettrico",
+                "Impianto Satellitare",
+                "Ingresso Indipendente",
+                "Parco Condominiale",
+                "Passaggio Automobilistico",
+                "Passaggio Pedonale",
+                "Piscina",
+                "Ripostiglio",
+                "Tennis"
+            ],
+            "Titolo": "APPARTAMENTO IN CONTESTO TRANQUILLO",
+            "Titolo_En": "APARTMENT IN A QUIET ENVIRONMENT",
+            "Titolo_De": "WOHNUNG IN RUHIGER LAGE",
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "COSTERMANO SUL GARDA - Marciaga - In contesto di residence con piscina ed ampi spazi verdi, in totale tranquillità lontano dal traffico, proponiamo appartamento piano terra disposto su due livelli. Ingresso al piano terra con ampia zona giorno, accesso diretto al portico coperto, cucinotto e lavanderia. Piano sottostante due camere da letto con rispettivi bagni. Posto auto di proprietà. Contesto signorile a due passi dal Golf di Marciaga. Assolutamente da vedere!\n",
+            "Descrizione_En": "COSTERMANO SUL GARDA - Marciaga - Residence with swimming pool and large green spaces, in total serenity away from traffic, we offer an apartement on ground floor on two levels.\nThe entrance on ground floor with large living room, with direct entry to the covered walkway, kitchenette and laundry.\nOn underlying floor there are two bedrooms with its bathroom. Parking garage of property. Noble environment a few steps from Golf of Marciaga . To be seen!",
+            "Descrizione_De": "COSTERMANO SUL GARDA - Marciaga - Im Rahmen einer Residenz mit Swimmingpool und großen Grünflächen, in absoluter Ruhe abseits des Verkehrs, bieten wir eine Erdgeschosswohnung auf zwei Ebenen an. Eingang im Erdgeschoss mit großem Wohnbereich, direkter Zugang zur überdachten Veranda, Küchenzeile und Waschküche. Untergeschoss zwei Schlafzimmer mit jeweiligen Bädern. Eigener Parkplatz. Elegantes Ambiente nur einen Steinwurf vom Golf di Marciaga entfernt. Etwas, das man gesehen haben muss!",
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_327-1280-.jpg",
+                "https://img.miogest.com/24229/imm_336-1280-.jpg",
+                "https://img.miogest.com/24229/imm_337-1280-.jpg",
+                "https://img.miogest.com/24229/imm_338-1280-.jpg",
+                "https://img.miogest.com/24229/imm_341-1280-.jpg",
+                "https://img.miogest.com/24229/imm_419-1280-.jpg",
+                "https://img.miogest.com/24229/imm_339-1280-.jpg",
+                "https://img.miogest.com/24229/imm_340-1280-.jpg",
+                "https://img.miogest.com/24229/imm_343-1280-.jpg",
+                "https://img.miogest.com/24229/imm_342-1280-.jpg",
+                "https://img.miogest.com/24229/imm_332-1280-.jpg",
+                "https://img.miogest.com/24229/imm_420-1280-.jpg",
+                "https://img.miogest.com/24229/imm_423-1280-.jpg",
+                "https://img.miogest.com/24229/imm_328-1280-.jpg",
+                "https://img.miogest.com/24229/imm_329-1280-.jpg",
+                "https://img.miogest.com/24229/imm_330-1280-.jpg",
+                "https://img.miogest.com/24229/imm_331-1280-.jpg",
+                "https://img.miogest.com/24229/imm_422-1280-.jpg",
+                "https://img.miogest.com/24229/imm_334-1280-.jpg",
+                "https://img.miogest.com/24229/imm_333-1280-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37010",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_327-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_336-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_337-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_338-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_341-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_419-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_339-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_340-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_343-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_342-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_332-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_420-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_423-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_328-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_329-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_330-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "16"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_331-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "17"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_422-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "18"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_334-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "19"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_333-1280-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": "2",
+            "AnnuncioId": "19",
+            "Codice": "A000001",
+            "Creato": "20211116181706",
+            "Modifica": "20211117092629",
+            "Scadenza": "20221116",
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Garda",
+            "Comune_Istat": "023036",
+            "Zona": {},
+            "Indirizzo": "gardesana",
+            "Civico": "1",
+            "Latitudine": "45.60559",
+            "Longitudine": "10.68593",
+            "Tipologia": "A",
+            "Tipologia2": {},
+            "Categoria": [
+                "2",
+                "15"
+            ],
+            "HomePage": "si",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "650",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "40",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "1",
+            "Camere": "0",
+            "CamereDoppie": "0",
+            "CamereSingole": "0",
+            "Letti": "4",
+            "Bagni": "1",
+            "Balconi": "1",
+            "Terrazzi": "0",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "1",
+            "Classe": "G",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Buono",
+            "Scheda_Grado": "Medio",
+            "Scheda_Posizione": "Lago",
+            "Scheda_Panorama": "Vista Lago",
+            "Scheda_Orientamento": "Sud Ovest",
+            "Scheda_LatiLiberi": "1",
+            "Scheda_Giardino": "Comune",
+            "Scheda_Arredi": "Arredato a Nuovo",
+            "Scheda_TipoCucina": "Cucinotto",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Pompa di Calore",
+            "Scheda_TipoImpianto": "Aria",
+            "Scheda_FonteEnergetica": "Elettrico",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Infissi": "PVC Doppio Vetro",
+            "Scheda_Serramenti": "Nuovo",
+            "Scheda_Persiana": "Tapparella PVC",
+            "Scheda_Balconi": "Uno",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Ascensore",
+                "Cancello Elettrico",
+                "Doppi Vetri",
+                "Lavanderia",
+                "No Animali",
+                "Parco Condominiale",
+                "Passaggio Automobilistico",
+                "Passaggio Pedonale",
+                "Portineria / Custode",
+                "Tavolini Esterni"
+            ],
+            "Titolo": "Appoggio vacanze a Garda",
+            "Titolo_En": "Studio for holiday",
+            "Titolo_De": {},
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "Cerchi un mini appartamento per trascorrere fine settimana e ferie in tranquillità? Vuoi un accesso diretto alla spiaggia più bella di Garda? Vuoi \"dimenticarti\" di avere l'automobile e muoverti liberamente a piedi dalla spiaggia al centro paese e relativi servizi? Questa struttura fà al caso tuo! Chiamaci per info.",
+            "Descrizione_En": "in Garda into a residence convenient to services, directed linked to the most beautiful beach in Garda and the centre of village, we offer you this studio with: ari conditioning, separated kitchen, sofa with double bed and 2 bed on the wall. Private balcony.\nIf you need more infos, just call us1\n",
+            "Descrizione_De": {},
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_468-1280-.jpg",
+                "https://img.miogest.com/24229/imm_467-1280-.jpg",
+                "https://img.miogest.com/24229/imm_469-1280-.jpg",
+                "https://img.miogest.com/24229/imm_470-1280-.jpg",
+                "https://img.miogest.com/24229/imm_471-1280-.jpg",
+                "https://img.miogest.com/24229/imm_472-1280-.jpg",
+                "https://img.miogest.com/24229/imm_474-1280-.jpg",
+                "https://img.miogest.com/24229/imm_475-1280-.jpg",
+                "https://img.miogest.com/24229/imm_478-1280-.jpg",
+                "https://img.miogest.com/24229/imm_479-1280-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37016",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_468-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_467-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_469-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_470-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_471-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_472-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_474-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_475-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_478-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_479-1280-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": "2",
+            "AnnuncioId": "20",
+            "Codice": "A000002",
+            "Creato": "20211116182747",
+            "Modifica": "20211118181244",
+            "Scadenza": "20221116",
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Garda",
+            "Comune_Istat": "023036",
+            "Zona": {},
+            "Indirizzo": "via gardasana",
+            "Civico": "1",
+            "Latitudine": "45.57711",
+            "Longitudine": "10.70524",
+            "Tipologia": "A",
+            "Tipologia2": {},
+            "Categoria": [
+                "2",
+                "15"
+            ],
+            "HomePage": "si",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "650",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "40",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "1",
+            "Camere": "1",
+            "CamereDoppie": "0",
+            "CamereSingole": "0",
+            "Letti": "4",
+            "Bagni": "1",
+            "Balconi": "1",
+            "Terrazzi": "0",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "1",
+            "Classe": "G",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Buono",
+            "Scheda_Grado": "Medio",
+            "Scheda_Posizione": "Lago",
+            "Scheda_Panorama": "Vista Lago",
+            "Scheda_Orientamento": "Est Sud Ovest",
+            "Scheda_LatiLiberi": "2",
+            "Scheda_Giardino": "Comune",
+            "Scheda_Arredi": "Arredato",
+            "Scheda_TipoCucina": "Angolo Cottura",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Pompa di Calore",
+            "Scheda_TipoImpianto": "Aria",
+            "Scheda_FonteEnergetica": "Elettrico",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Infissi": "Legno",
+            "Scheda_Serramenti": "Discreto",
+            "Scheda_Persiana": "Tapparella PVC",
+            "Scheda_Balconi": "Uno",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Ascensore",
+                "Cancello Elettrico",
+                "Lavanderia",
+                "No Animali",
+                "Parco Condominiale",
+                "Passaggio Automobilistico",
+                "Passaggio Pedonale",
+                "Portineria / Custode",
+                "Ripostiglio",
+                "Tapparelle Elettriche"
+            ],
+            "Titolo": "Appoggio vacanze a Garda!",
+            "Titolo_En": "Flat to rent on the lake",
+            "Titolo_De": {},
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "Cerchi un mini appartamento per trascorrere fine settimana e ferie in tranquillità? Vuoi un accesso diretto alla spiaggia più bella di Garda? Vuoi \"dimenticarti\" di avere l'automobile e muoverti liberamente a piedi dalla spiaggia al centro paese e relativi servizi? Camera da letto con letto alla francese separata, divano letto matrimoniale, stube 8 posti! Questa struttura fá al caso tuo! Chiamaci per info.",
+            "Descrizione_En": "In Garda into a residence convenient to services, directed linked to the most beautiful beach in Garda and the centre of village, we offer you this studio with: ari conditioning, kitchen corner, sofa with double bed and a private room with a double bed, private balcony too.\nIf you need more infos, just call us!",
+            "Descrizione_De": {},
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_483-1024-.jpg",
+                "https://img.miogest.com/24229/imm_480-1024-.jpg",
+                "https://img.miogest.com/24229/imm_482-1024-.jpg",
+                "https://img.miogest.com/24229/imm_484-1024-.jpg",
+                "https://img.miogest.com/24229/imm_485-1024-.jpg",
+                "https://img.miogest.com/24229/imm_486-1024-.jpg",
+                "https://img.miogest.com/24229/imm_487-1024-.jpg",
+                "https://img.miogest.com/24229/imm_488-1024-.jpg",
+                "https://img.miogest.com/24229/imm_489-1024-.jpg",
+                "https://img.miogest.com/24229/imm_490-1024-.jpg",
+                "https://img.miogest.com/24229/imm_491-1024-.jpg",
+                "https://img.miogest.com/24229/imm_492-1024-.jpg",
+                "https://img.miogest.com/24229/imm_493-1024-.jpg",
+                "https://img.miogest.com/24229/imm_494-1024-.jpg",
+                "https://img.miogest.com/24229/imm_495-1024-.jpg",
+                "https://img.miogest.com/24229/imm_496-1024-.jpg",
+                "https://img.miogest.com/24229/imm_497-1024-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37016",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_483-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_480-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_482-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_484-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_485-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_486-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_487-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_488-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_489-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_490-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_491-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_492-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_493-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_494-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_495-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_496-1024-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "16"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_497-1024-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": "1",
+            "AnnuncioId": "21",
+            "Codice": "A000003",
+            "Creato": "20211120173414",
+            "Modifica": "20211121105859",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Peschiera del Garda",
+            "Comune_Istat": "023059",
+            "Zona": {},
+            "Indirizzo": "via guidoni ",
+            "Civico": "1",
+            "Latitudine": "45.44134",
+            "Longitudine": "10.67895",
+            "Tipologia": "A",
+            "Tipologia2": {},
+            "Categoria": "2",
+            "HomePage": "no",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "1500",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "2014",
+            "Mq": "100",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "5",
+            "Camere": "3",
+            "CamereDoppie": "2",
+            "CamereSingole": "1",
+            "Letti": "0",
+            "Bagni": "2",
+            "Balconi": "0",
+            "Terrazzi": "0",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "1",
+            "PostiAuto": "1",
+            "Classe": "A",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_StatoImmobile": "Nuovo",
+            "Scheda_Grado": "Signorile",
+            "Scheda_Panorama": "Vista Aperta",
+            "Scheda_Orientamento": "Nord Ovest Sud Est",
+            "Scheda_LatiLiberi": "3",
+            "Scheda_Giardino": "Privato",
+            "Scheda_Arredi": "Arredato a Nuovo",
+            "Scheda_TipoSoggiorno": "Soggiorno",
+            "Scheda_TipoCucina": "Cucinotto",
+            "Scheda_Riscaldamento": "Autonomo",
+            "Scheda_TipoRiscaldamento": "Caldaia",
+            "Scheda_TipoImpianto": "Pavimento",
+            "Scheda_FonteEnergetica": "Metano",
+            "Scheda_AcquaCalda": "Autonoma",
+            "Scheda_Serramenti": "Nuovo",
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "No",
+            "Accessori": [
+                "Aria Condizionata",
+                "Cancello Elettrico",
+                "Doppi Vetri",
+                "Doppio Ingresso",
+                "Ingresso Indipendente",
+                "Parco Condominiale",
+                "Piscina",
+                "Porta Blindata",
+                "Rete Dati",
+                "Ripostiglio",
+                "Video Citofono"
+            ],
+            "Titolo": "Appartamento in residence con piscina",
+            "Titolo_En": {},
+            "Titolo_De": {},
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "Peschiera del Garda - A due passi dal Lago proponiamo appartamento piano terra su due livelli con ingresso indipendente e totale privacy. Giardino di proprietà, porticato coperto ed ampi spazi verdi inclusa la piscina. Ottimo punto per d'appoggio per le vacanze! Contratto transitorio annuale! ",
+            "Descrizione_En": {},
+            "Descrizione_De": {},
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_509-1280-.jpg",
+                "https://img.miogest.com/24229/imm_510-1280-.jpg",
+                "https://img.miogest.com/24229/imm_511-1280-.jpg",
+                "https://img.miogest.com/24229/imm_512-1280-.jpg",
+                "https://img.miogest.com/24229/imm_515-1280-.jpg",
+                "https://img.miogest.com/24229/imm_516-1280-.jpg",
+                "https://img.miogest.com/24229/imm_517-1280-.jpg",
+                "https://img.miogest.com/24229/imm_519-1280-.jpg",
+                "https://img.miogest.com/24229/imm_520-1280-.jpg",
+                "https://img.miogest.com/24229/imm_521-1280-.jpg",
+                "https://img.miogest.com/24229/imm_522-1280-.jpg",
+                "https://img.miogest.com/24229/imm_523-1280-.jpg",
+                "https://img.miogest.com/24229/imm_524-1280-.jpg",
+                "https://img.miogest.com/24229/imm_525-1280-.jpg",
+                "https://img.miogest.com/24229/imm_526-1280-.jpg",
+                "https://img.miogest.com/24229/imm_527-1280-.jpg",
+                "https://img.miogest.com/24229/imm_528-1280-.jpg",
+                "https://img.miogest.com/24229/imm_529-1280-.jpg",
+                "https://img.miogest.com/24229/imm_530-1280-.jpg",
+                "https://img.miogest.com/24229/imm_531-1280-.jpg",
+                "https://img.miogest.com/24229/imm_532-1280-.jpg",
+                "https://img.miogest.com/24229/imm_534-1280-.jpg",
+                "https://img.miogest.com/24229/imm_535-1280-.jpg",
+                "https://img.miogest.com/24229/imm_536-1280-.jpg",
+                "https://img.miogest.com/24229/imm_537-1280-.jpg",
+                "https://img.miogest.com/24229/imm_538-1280-.jpg",
+                "https://img.miogest.com/24229/imm_539-1280-.jpg",
+                "https://img.miogest.com/24229/imm_540-1280-.jpg",
+                "https://img.miogest.com/24229/imm_541-1280-.jpg",
+                "https://img.miogest.com/24229/imm_542-1280-.jpg",
+                "https://img.miogest.com/24229/imm_544-1280-.jpg",
+                "https://img.miogest.com/24229/imm_545-1280-.jpg",
+                "https://img.miogest.com/24229/imm_546-1280-.jpg",
+                "https://img.miogest.com/24229/imm_547-1280-.jpg",
+                "https://img.miogest.com/24229/imm_548-1280-.jpg",
+                "https://img.miogest.com/24229/imm_550-1280-.jpg",
+                "https://img.miogest.com/24229/imm_551-1280-.jpg",
+                "https://img.miogest.com/24229/imm_552-1280-.jpg",
+                "https://img.miogest.com/24229/imm_553-1280-.jpg",
+                "https://img.miogest.com/24229/imm_556-1280-.jpg",
+                "https://img.miogest.com/24229/imm_557-1280-.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37019",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_509-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_510-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_511-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_512-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_515-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_516-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_517-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "7"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_519-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "8"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_520-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "9"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_521-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "10"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_522-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "11"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_523-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "12"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_524-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "13"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_525-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "14"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_526-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "15"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_527-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "16"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_528-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "17"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_529-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "18"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_530-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "19"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_531-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "20"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_532-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "21"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_534-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "22"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_535-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "23"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_536-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "24"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_537-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "25"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_538-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "26"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_539-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "27"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_540-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "28"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_541-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "29"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_542-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "30"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_544-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "31"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_545-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "32"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_546-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "33"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_547-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "34"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_548-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "35"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_550-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "36"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_551-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "37"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_552-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "38"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_553-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "39"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_556-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "40"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_557-1280-.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "Agenzia": "24229",
+            "Agente": {},
+            "AnnuncioId": "22",
+            "Codice": "A000004",
+            "Creato": "20211123150605",
+            "Modifica": "20211123164129",
+            "Scadenza": {},
+            "CantiereId": "0",
+            "Nazione": "Italia",
+            "Regione": "Veneto",
+            "Provincia": "VR",
+            "Comune": "Bardolino",
+            "Comune_Istat": "023006",
+            "Zona": {},
+            "Indirizzo": "ugo foscolo",
+            "Civico": {},
+            "Latitudine": "45.54807",
+            "Longitudine": "10.22757",
+            "Tipologia": "A",
+            "Tipologia2": {},
+            "Categoria": "35",
+            "HomePage": "no",
+            "Investimento": "no",
+            "Prestigio": "no",
+            "Offerta": "no",
+            "Single": "no",
+            "Coppie": "no",
+            "Famiglie": "no",
+            "Aste_Giudiziarie": "no",
+            "Affitto_Riscatto": "no",
+            "Personalizzato1": "no",
+            "Personalizzato2": "no",
+            "Personalizzato3": "no",
+            "Prezzo": "200",
+            "Prezzo_Riservato": "0",
+            "Prezzo_Spese": "0",
+            "Anno": "0",
+            "Mq": "20",
+            "MqCalpestabili": "0",
+            "MqBox": "0",
+            "MqGiardino": "0",
+            "MqBalconi": "0",
+            "MqMansarda": "0",
+            "MqTaverna": "0",
+            "MqTerrazzo": "0",
+            "MqCantina": "0",
+            "MqSolaio": "0",
+            "Vani": "1",
+            "Camere": "0",
+            "CamereDoppie": "0",
+            "CamereSingole": "0",
+            "Letti": "0",
+            "Bagni": "0",
+            "Balconi": "0",
+            "Terrazzi": "0",
+            "Piano": {},
+            "LivelliInterni": "0",
+            "PianiCondominio": "0",
+            "UnitaCondominio": "0",
+            "Box": "0",
+            "PostiAuto": "0",
+            "Classe": "G",
+            "Classe_Coefficiente": "0",
+            "Classe_UM": {},
+            "Scheda_Balconi": "No",
+            "Scheda_Terrazzi": "No",
+            "Titolo": "IN PIENO CENTRO ",
+            "Titolo_En": {},
+            "Titolo_De": {},
+            "Titolo_Fr": {},
+            "Titolo_Es": {},
+            "Titolo_Ru": {},
+            "Titolo_Fly": {},
+            "Descrizione": "BARDOLINO - Vicinissimo al centro paese affittasi garage per un'auto dotato di porta basculante con serratura. Misura circa 20 metri quadri. ",
+            "Descrizione_En": {},
+            "Descrizione_De": {},
+            "Descrizione_Fr": {},
+            "Descrizione_Es": {},
+            "Descrizione_Ru": {},
+            "Descrizione_Fly": {},
+            "Broker": {},
+            "Foto": [
+                "https://img.miogest.com/24229/imm_558-1280-.jpg",
+                "https://img.miogest.com/24229/imm_559-1280-.jpg",
+                "https://img.miogest.com/24229/imm_560-1280-.jpg",
+                "https://img.miogest.com/24229/imm_561-1280-.jpg",
+                "https://img.miogest.com/24229/imm_562-1280-.jpg",
+                "https://img.miogest.com/24229/imm_563-1280-.jpg",
+                "https://img.miogest.com/24229/imm_564--1280.jpg"
+            ],
+            "Valuta": "EUR",
+            "PrestazioneEnergeticaEstate": {},
+            "PrestazioneEnergeticaInverno": {},
+            "Cap": "37011",
+            "Ufficio": "1",
+            "AMMedias": {
+                "AMFoto": [
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "0"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_558-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "1"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_559-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "2"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_560-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "3"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_561-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "4"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_562-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "5"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_563-1280-.jpg"
+                    },
+                    {
+                        "@attributes": {
+                            "Tipo": "generic",
+                            "Ordine": "6"
+                        },
+                        "Url": "https://img.miogest.com/24229/imm_564--1280.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}
