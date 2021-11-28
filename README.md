@@ -1,3 +1,5 @@
+**Note: 301 - project moved to the company's organization [Dev-digitalgarda](https://github.com/Dev-digitalgarda)**
+
 # wp-miogest-sync
 The wordpress plugin to syncronize miogest with Worpdress every night
 
